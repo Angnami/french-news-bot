@@ -21,3 +21,7 @@
 
 -------------------------
 
+
+## 1. Introduction
+
+Ce projet est essentiellement basé sur [le travail](https://github.com/iusztinpaul/hands-on-llms) réalisé par <i>by <a href="https://github.com/iusztinpaul">Paul Iusztin</a> et <a href="https://github.com/Paulescu">Pau Labarta Bajo</a> and <a href="https://github.com/Joywalker">Alexandru Razvant</a></i>. 
