@@ -4,4 +4,4 @@
 
 
 
-<p align='center'>Par <a href='www.linkedin.com/in/goudja-mahamat'>Goudja Mahamat </a></p>
+<p align='center'>Par <a href='https://www.linkedin.com/in/goudja-mahamat'>Goudja Mahamat </a></p>
