@@ -2,7 +2,7 @@
 # === Install ===
 
 install:
-	@echo "Installation de training pipeline..."
+	@echo "Installation du pipeline.d'entrainement.."
 	
 	poetry env use $(shell which python3.11) && \
 	PYTHON_KEYRING_BACKEND=keyring.backends.null.Keyring poetry install && \
