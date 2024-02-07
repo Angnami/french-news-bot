@@ -1,0 +1,48 @@
+[tool.poetry]
+name = "feature-pipeline"
+version = "0.1.0"
+description = ""
+authors = ["Angnami <mhtgoudjemi@gmail.com>"]
+readme = "README.md"
+packages = [{include = "feature_pipeline"}]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+bytewax = "^0.18.1"
+python-dotenv = "^1.0.1"
+pydantic = "^2.5.3"
+unstructured = "^0.12.2"
+sentencepiece = "^0.1.99"
+qdrant-client = "^1.7.1"
+fire = "^0.5.0"
+transformers = "^4.37.1"
+torch = {version = "^2.2.0+cpu", source = "torch-cpu"}
+PyYAML = "^6.0.1"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.1.1"
+ruff = "^0.1.14"
+ipykernel = "^6.29.0"
+
+
+[[tool.poetry.source]]
+name = "PyPI"
+priority = "primary"
+
+[[tool.poetry.source]]
+name = "torch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+priority = "supplemental"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+
+[tool.ruff.isort]
+case-sensitive = true
