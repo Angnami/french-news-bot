@@ -25,3 +25,4 @@
 ## 1. Introduction
 
 Ce projet est essentiellement basé sur [le travail](https://github.com/iusztinpaul/hands-on-llms) réalisé par <i> <a href="https://github.com/iusztinpaul">Paul Iusztin</a>, <a href="https://github.com/Paulescu">Pau Labarta Bajo</a> et <a href="https://github.com/Joywalker">Alexandru Razvant</a></i>. 
+Ce ptojet correspond à la création d'un agent conversationnel avec lequel il est possible d'interagir en lui posant des questions sur les actualités en France. Il s'agir concretement de choisir une rubrique d'actualité (politics par exemple) dans liste proposée et poser une question pour laquelle le bot générera une réponse conhérente.
