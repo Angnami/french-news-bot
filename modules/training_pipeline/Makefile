@@ -1,8 +1,9 @@
 .PHONY: help install add  add_dev install_dev export_requirements  train_beam  infer_local infer_beam lint_check lint_fix format_check format_fix
+
 # === Install ===
 
 install:
-	@echo "Installation du pipeline.d'entrainement.."
+	@echo "Installation du pipeline d'entrainement.."
 	
 	poetry env use $(shell which python3.11) && \
 	PYTHON_KEYRING_BACKEND=keyring.backends.null.Keyring poetry install && \
@@ -30,7 +31,7 @@ export_requirements:
 	poetry export -f requirements.txt --output requirements.txt --without-hashes
 
 upload_dataset_to_beam:
-	@echo "Chargement du volume des données dans..."
+	@echo "Chargement du volume des données dans Beam..."
 	
 	beam volume upload qa_dataset dataset
 
@@ -50,7 +51,7 @@ infer_beam: export_requirements
 
 
 # === PEP8 ===
-# Be sure to install the dev dependencies first #
+# S'assurer d'installer les dépendances dev préalablement #
 
 lint_check:
 	@echo "Vérification des problèmes de linting..."
