@@ -8,9 +8,9 @@
 ## Table des matières
 - [1. Introduction](#1-Introduction)
 - [2. Modules du projet](#2-Modules-du-projet)
-    - [2.1 Data pipeline](#21-Data-pipeline)
+    - [2.1 Q&A data generator](#21-q-and-a-data-generator)
     - [2.2 Training pipeline](#22-Training-pipeline)
-    - [2.3 Features pipeline](#23-Features-pipeline)
+    - [2.3 Feature pipeline](#23-Feature-pipeline)
     - [2.4 News bot](#24-News-bot)
 - [3. Configuration des services externes](#3-Configuration-des-services-externes)
     - [3.1. Alpaca](#31-alpaca)
