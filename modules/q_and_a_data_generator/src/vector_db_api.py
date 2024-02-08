@@ -5,17 +5,8 @@ from qdrant_client import QdrantClient
 QDRANT_API_URL = os.environ["QDRANT_API_URL"]
 QDRANT_API_KEY = os.environ["QDRANT_API_KEY"]
 
-# def fetch_relevant_news_from_db() -> List[Dict]:
-#     """"""
-#     from qdrant_client import QdrantClient
 
-#     qdrant_client = QdrantClient(
-#         url="https://ae87052d-4765-49f5-b462-d9b468a97976.eu-central-1-0.aws.cloud.qdrant.io:6333", 
-#         api_key="<your-token>",
-#     )
-
-
-def get_qdrant_client()->QDRANT_API_KEY:
+def get_qdrant_client()->QdrantClient:
     qdrant_client = QdrantClient(
         url=QDRANT_API_URL,
         api_key=QDRANT_API_KEY,    

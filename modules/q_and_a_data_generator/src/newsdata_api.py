@@ -5,14 +5,12 @@ import requests
 import json
 import datetime
 import os
-from config import set_environment
 
 from src.logger import get_console_logger
 from src.paths import DATA_DIR
 
 logger = get_console_logger()
 
-set_environment()
 
 list_of_categories = ['business', 'entertainment','environment', 'health', 'politics', 'science','sports', 'technology', 'top', 'world']
 
@@ -69,9 +67,9 @@ def fetch_batch_of_news(category: str, from_date:datetime, to_date:datetime, pag
     res = requests.get(url=ARCHIVE_URL, params=params)
 
     # Analyse du résultat de la requête
-    list_of_news = []
-    next_page_token = None
     if res.status_code == 200:
+        list_of_news = []
+        next_page_token = None
         news_json = res.json()
         # Extraire la référence de la page suivante si elle existe
         next_page_token = news_json.get("nextPage", None)
@@ -141,7 +139,7 @@ def download_historical_data(from_date:datetime, to_date:datetime)-> Path:
         list_of_news, next_page_token = fetch_batch_of_news(category=cat, from_date=from_date, to_date=to_date)
         logger.info(msg=f"Nouvelles recupérées pour la catégorie {cat}: {len(list_of_news)}")
         logger.debug(f"Référence de la page suivante: {next_page_token}")
-        while next_page_token is not None and len(list_of_news)<50:
+        while next_page_token is not None :#and len(list_of_news)<50:
             batch_of_news, next_page_token = fetch_batch_of_news(category=cat,
                                                                  from_date=from_date, 
                                                                  to_date=to_date,

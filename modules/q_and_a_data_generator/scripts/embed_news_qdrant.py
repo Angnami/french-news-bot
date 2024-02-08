@@ -11,7 +11,7 @@ from src.logger import get_console_logger
 from src.paths import DATA_DIR
 
 
-NEWS_FILE = DATA_DIR/"news_2024.json"
+NEWS_FILE = DATA_DIR/"hist_data_from_2024-01-02_to_2024-01-6.json"
 QDRANT_COLLECTION_NAME = "newsdata"
 QDRANT_VECTOR_SIZE = 384
 
@@ -127,13 +127,11 @@ def push_document_to_qdrant(document:Document)->None:
     )
 
 
-def process_one_document(_data:Dict)->Document:
+def process_one_document(_data:Dict)->None:
     doc = parse_document(_data=_data)
     doc = chunk(doc)
     doc= embedding(doc)
     push_document_to_qdrant(doc)
-    
-    return doc
 
 
 def embed_news_into_qdrant(news_data:List(Dict),n_processes:int=1)->None:
