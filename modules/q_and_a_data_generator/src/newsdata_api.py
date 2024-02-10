@@ -5,9 +5,13 @@ import requests
 import json
 import datetime
 import os
+from config import set_environment
+
 
 from src.logger import get_console_logger
 from src.paths import DATA_DIR
+
+set_environment()
 
 logger = get_console_logger()
 
