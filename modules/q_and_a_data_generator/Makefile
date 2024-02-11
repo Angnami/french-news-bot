@@ -1,11 +1,11 @@
-.PHONY: init download embed training-data
+.PHONY: init set-env-var download embed training-data
 
 # Installer poetry et les dépendances
 init:
 	curl -sSL https://install.python-poetry.org | python3 -
 	poetry install
 
-#Définir les variables environnementales nécessaires à l'utilisation des services externes
+# Définir les variables environnementales nécessaires à l'utilisation des services externes
 set-env-var:
 	mv /example_config.py  /config.py
 
