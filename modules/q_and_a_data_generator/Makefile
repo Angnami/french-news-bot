@@ -26,8 +26,8 @@ training-data-responses-only:
 # Générer de nouvelles données (questions et contextes) avec gpt-3.5-turbo à partir d'un exemple par rubrique d'information 
 training-data-questions-only:
 	@echo "Générer de nouvelles questions ..."
-	poetry run python scripts/generate_training_data.py --only-q=true --only-a=false --q-and-a=false --new-examples-per-category=15
+	poetry run python scripts/generate_training_data.py --only-q=true --only-a=false --q-and-a=false --new-examples-per-category=$(new_examples_per_category)
 # Générer de nouvelles données (questions,contextes et réponses) avec gpt-3.5-turbo à partir d'un exemple( question, contexte) par rubrique d'information
 training-data-q-and-a:
 	@echo "Générer des questions et avec leurs réponses..."
-	poetry run python scripts/generate_training_data.py --only-q=false --only-a=false --q-and-a=true --new-examples-per-category=15
+	poetry run python scripts/generate_training_data.py --only-q=false --only-a=false --q-and-a=true --new-examples-per-category=$(new_examples_per_category)
