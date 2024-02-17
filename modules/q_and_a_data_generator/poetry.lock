@@ -594,20 +594,6 @@ files = [
 ]
 
 [[package]]
-name = "jinaai"
-version = "0.2.10"
-description = "Jina AI Python SDK"
-optional = false
-python-versions = "*"
-files = [
-    {file = "jinaai-0.2.10-py3-none-any.whl", hash = "sha256:c22659283eb258d3616337e0f8e2414156b47fd18248e6a6e7c70030fa85c05c"},
-    {file = "jinaai-0.2.10.tar.gz", hash = "sha256:0a4990eec0c557e99e96d81981da4f244757af990143f214ca2029abafb6205d"},
-]
-
-[package.dependencies]
-requests = "*"
-
-[[package]]
 name = "jinja2"
 version = "3.1.2"
 description = "A very fast and expressive template engine."
@@ -2563,4 +2549,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.11,<3.12"
-content-hash = "c339520f2455446be61a2439453a21c03d115dbfe27766cd162e76537a72c467"
+content-hash = "d721531bc9096128bf5a1cca4bb7552fc14ee25c18f26a6fb0e0f5bef0d728e6"

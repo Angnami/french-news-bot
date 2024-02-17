@@ -3,7 +3,6 @@ name = "src"
 version = "0.1.0"
 description = ""
 authors = ["Angnami <mhtgoudjemi@gmail.com>"]
-license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
@@ -18,7 +17,6 @@ unstructured = "^0.11.6"
 sentencepiece = "^0.1.99"
 fire = "^0.5.0"
 openai = "^1.6.1"
-jinaai = "^0.2.10"
 
 
 [tool.poetry.group.dev.dependencies]
