@@ -10,6 +10,3 @@ class Scope(Enum):
 
 
 CACHE_DIR = Path.home() /".cache" / "french-news-bot"
-
-
-print(Path.home())
