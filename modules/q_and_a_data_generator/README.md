@@ -4,6 +4,11 @@ Ce module contient des fonctions permettant de:
 * générer un dataset des Q&A pour faire le fine-tuning d'un modèle de base;
 * télécharger des données historiques à partir de l'API NewsData pour une période donnée;
 * Formater les articles de presse téléchargés, calculer leurs embeddings et les charger avec leurs metadonnées dans Qdrant.   
+## Installation de Poetry    
+La commande ci-dessous install Poetry (installation propre à Linux, macOS et WSL), configure Poetry pour créer l'environnement virtuel à l'intérieur du projet et install toutes les dépendances définies dans le fichier pyproject.toml.   
+```bat
+make init
+```
 ## Définition des varibles environnementales nécessaires à l'utilisation des services externes  
 Le fichier example_config.py est un modèle de fichier python à compléter avec les infromations personnelles requises pour l'utilisation des services externes, les clés des API par exemple.   
 Après avoir complété le fichier avec les informatons nécessaires, il suffit d'exécuter la commande:   
