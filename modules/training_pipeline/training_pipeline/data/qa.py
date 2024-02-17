@@ -19,6 +19,7 @@ class DataSample:
         - question (str): La question qu'il faut répondre.
         - answer (str): La réponse à la question.
     """
+    news_category:str=""
     news_context: str = ""
     chat_history: str = ""
     question: str = ""
@@ -31,12 +32,12 @@ class NewsDataset:
     template:str="falcon",
     max_samples:Optional[int]=None):
         """
-        Une classe représentant un Dataset des nouvelles.
+        Une classe représentant un Dataset des articles de presse.
         Args:
             - data_path(Path) : le chemin du fichier des données.
             - scope(Scope, optionnel):  la portée des données. La valeur par défaut est Scope.TRAINING. 
             - template(str, optionnel): le template à utiliser pour les données. La valeur par défaut est falcon.
-            - max_samples(Optional[int], optionnel): le nombre maximal d'échantillon à utiliser. La valeur par défaut est None.
+            - max_samples(Optional[int], optionnel): le nombre maximal d'observations à utiliser. La valeur par défaut est None.
         """
         self._data_path = data_path
         self._scope = scope
@@ -72,6 +73,7 @@ class NewsDataset:
         if self._scope == Scope.TRAINING:
             return[
                 DataSample(
+                    news_category = sample['news_category'],
                     news_context=sample['news_context'],
                     chat_history=sample.get("chat_history",""),
                     question=sample['question'],
@@ -83,6 +85,7 @@ class NewsDataset:
         else:
             return[
                 DataSample(
+                    news_category = sample['news_category'],
                     news_context=sample['news_context'],
                     chat_history=sample.get("chat_history",""),
                     question=sample['question'],
