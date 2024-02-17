@@ -65,7 +65,7 @@ def build_qlora_model(
         tokenizer.add_special_tokens({"pad_token": "<|pad|>"})
         with torch.no_grad():
             model.resize_token_embeddings(len(tokenizer))
-        model.conig.pad_token_id = tokenizer.pad_token_id
+        model.config.pad_token_id = tokenizer.pad_token_id
     
     if peft_pretrained_model_name_or_path:
         is_model_name = not os.path.isdir(peft_pretrained_model_name_or_path)
@@ -78,7 +78,7 @@ def build_qlora_model(
         lora_config =LoraConfig.from_pretrained(peft_pretrained_model_name_or_path)
         assert (
             lora_config.base_model_name_or_path == pretrained_model_name_or_path
-        ), f"Modèle Lora entrained sur un modèle de base différent que celui demandé:\
+        ), f"Modèle Lora entrainé sur un modèle de base différent que celui demandé:\
             {lora_config.base_model_name_or_path} != {pretrained_model_name_or_path}"
         logger.info(msg=f"Chargement du modèle Peft à partir de {peft_pretrained_model_name_or_path}")
         model = PeftModel.from_pretrained(model=model, model_id=peft_pretrained_model_name_or_path)
@@ -147,7 +147,7 @@ def prompt(
     return_only_answer:bool=False,):
 
     """
-    Cette fonction génére du texte basé sur le celui fourni en entrée en utilisant le modèle et le tokenizer.
+    Cette fonction génére du texte basé sur celui fourni en entrée en utilisant le modèle et le tokenizer.
     Args:
         - model(transformers.PretrainedModel): le modèle à utiliser pour générer du texte.
         - tokenizer(transformers.PretrainedTokenizer): le tokenizer à utilser pour générer du texte.
