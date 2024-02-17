@@ -13,7 +13,7 @@ make env-variables
 ## Génération des données d'entrainement   
 Pour générer les données d'entrainement, il est possible d'utiliser un LLM comme gpt-3.5 et un prompt adapté au type des données désirées.  
 Dans le cas de ce projet, deux prompts ont été utilisés. L'un permet de générer les questions et les éléments de contexte et l'autre sert à obtenir des réponses correspondant aux questions précédemment obtenues.   
-Pour générer des questions,contextes et réponses en même temps,il suffit d'exéuter la commande suivante(on peut changer la valeur de new_examples_per_category ):   
+Pour générer des questions,contextes et réponses en même temps,il suffit d'exéuter la commande suivante(la valeur de new_examples_per_category est modifiable):   
 ```bat
 new_examples_per_category=15 make training-data-q-and-a
 ```   
@@ -22,7 +22,7 @@ Pour générer des questions uniquement,il suffit d'exéuter cette commande:
 new_examples_per_category=15 make training-data-questions-only
 ```   
 
-Pour générer uniquement des réponses,il suffit d'exéuter la commande suivante(on peut changer la valeur de new_examples_per_category ):   
+Pour générer uniquement des réponses,il suffit d'exéuter la commande suivante(la valeur de new_examples_per_category est modifiable):   
 ```bat
 make training-data-responses-only
 ```  
