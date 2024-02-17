@@ -5,7 +5,7 @@ Ce module contient des fonctions permettant de:
 * télécharger des données historiques à partir de l'API NewsData pour une période donnée;
 * Formater les articles de presse téléchargés, calculer leurs embeddings et les charger avec leurs metadonnées dans Qdrant.   
 ## Installation de Poetry    
-La commande ci-dessous install Poetry (installation propre à Linux, macOS et WSL), configure Poetry pour créer l'environnement virtuel à l'intérieur du projet et install toutes les dépendances définies dans le fichier pyproject.toml.   
+La commande ci-dessous install Poetry (installation propre à Linux, macOS et WSL), le configure pour créer l'environnement virtuel à l'intérieur du projet et installe toutes les dépendances définies dans le fichier pyproject.toml.   
 ```bat
 make init
 ```
