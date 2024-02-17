@@ -2,7 +2,11 @@
 
 # Installer poetry et les dépendances
 init:
+	@echo "Installation de Poetry ..."
 	curl -sSL https://install.python-poetry.org | python3 -
+	@echo "Configuration de Poetry: création de l'environnement virtuel dans le projet ..."
+	poetry config virtualenvs.in-project true
+	@echo "Installation des dépendances"
 	poetry install
 
 # Définir les variables environnementales nécessaires à l'utilisation des services externes
