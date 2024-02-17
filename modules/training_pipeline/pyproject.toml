@@ -3,7 +3,6 @@ name = "training-pipeline"
 version = "0.1.0"
 description = ""
 authors = ["Angnami <mhtgoudjemi@gmail.com>"]
-license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
