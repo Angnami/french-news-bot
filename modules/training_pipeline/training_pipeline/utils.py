@@ -11,7 +11,7 @@ logger = logging.getLogger(__name__)
 def log_available_gpu_memory():
     """
     Cette fonction enregistre la mémoire GPU disponible pour chaque périphérique GPU disponible.
-    S'il n'existe aucune GPU disponible, elle enregistre 'Pas de GPU disponibles'
+    S'il n'existe aucune GPU disponible, elle affiche 'Pas de GPU disponibles'
     Returns:
         None
     """
