@@ -31,4 +31,8 @@ Pour générer uniquement des réponses,il suffit d'exéuter la commande suivant
 ```bat
 make training-data-responses-only
 ```  
-
+## Répartir les données entre l'entrainement et l'évaluation et mélanger les résultats   
+Pour diviser les données entre l'entrainement et l'évaluation et mélanger les résultats, il suffit d'exécuter la commande ci-dessous (la valeur de test_samples_per_category peut être modifier):   
+```bat
+test_samples_per_category=2 make split-and-shuffle
+```   
