@@ -1,39 +1,33 @@
 [
 	{
-		"news_category": "science",
-		"news_context": "La société de biotechnologie BioTech Innovations a acquis le laboratoire de recherche en biologie marine de Marseille dans le cadre de son expansion dans le domaine des sciences marines.",
-		"question": "Pourriez-vous me parler de l'acquisition du laboratoire de recherche en biologie marine de Marseille par la société de biotechnologie BioTech Innovations?",
-		"response": "BioTech Innovations a acquis le laboratoire de recherche en biologie marine de Marseille dans le cadre de son expansion dans le domaine des sciences marines."
+		"news_category": "politics",
+		"news_context": "À Lyon. Les autorités locales examinent les initiatives visant à intégrer les énergies renouvelables dans les services publics.",
+		"question": "quels sont les projets en cours pour promouvoir l'utilisation des énergies renouvelables dans le secteur public français?",
+		"response": "À Lyon, les autorités locales examinent les initiatives visant à intégrer les énergies renouvelables dans les services publics."
 	},
 	{
-		"news_category": "science",
-		"news_context": "L'Institut national de la recherche scientifique a récemment investi dans le laboratoire de physique nucléaire de Paris pour renforcer la collaboration entre les chercheurs français et canadiens dans le domaine de la physique des particules.",
-		"question": "Quels sont les objectifs de la collaboration entre les chercheurs français et canadiens dans le domaine de la physique des particules?",
-		"response": "Les objectifs de la collaboration entre les chercheurs français et canadiens dans le domaine de la physique des particules sont de renforcer les échanges scientifiques et de favoriser les avancées dans la recherche en physique nucléaire."
+		"news_category": "business",
+		"news_context": "La réforme de Pôle emploi, devenu France Travail, vise à atteindre des objectifs spécifiques en France, modifiant les structures existantes pour améliorer le service aux chômeurs.",
+		"question": "quel est l'objectif principal de la réforme de France Travail au Pôle emploi en France?",
+		"response": "L'objectif principal de la réforme de France Travail au Pôle emploi en France est d'améliorer le service aux chômeurs."
 	},
 	{
-		"news_category": "science",
-		"news_context": "L'entreprise SpaceTech Solutions a pris le contrôle de l'observatoire astronomique de Nice, marquant une nouvelle ère de partenariat public-privé dans le domaine de l'astronomie.",
-		"question": "Quels sont les enjeux de la prise de contrôle de l'observatoire astronomique de Nice par l'entreprise SpaceTech Solutions?",
-		"response": "Les enjeux de la prise de contrôle de l'observatoire astronomique de Nice par l'entreprise SpaceTech Solutions sont de créer un partenariat public-privé dans le domaine de l'astronomie et d'ouvrir de nouvelles opportunités de financement et de développement technologique pour l'observatoire."
+		"news_category": "world",
+		"news_context": "La situation dans le conflit israélo-palestinien, exacerbée par l'État hébreu poussant l'Autorité palestinienne à la faillite, influence les relations diplomatiques entre la France et les parties impliquées, générant des ajustements et des réponses politiques.",
+		"question": "quel impact la situation dans le conflit israélo-palestinien a-t-elle sur les relations diplomatiques entre la France et les parties impliquées?",
+		"response": "La situation dans le conflit israélo-palestinien a un impact sur les relations diplomatiques entre la France et les parties impliquées, entraînant des ajustements et des réponses politiques."
 	},
 	{
-		"news_category": "science",
-		"news_context": "La société de produits chimiques FineChem a acquis le laboratoire de recherche en chimie organique de Lyon, renforçant ainsi sa position en tant que leader dans le domaine de la recherche et du développement de nouvelles molécules organiques.",
-		"question": "Je souhaiterais avoir des informations sur l'acquisition du laboratoire de recherche en chimie organique de Lyon par la société de produits chimiques FineChem.",
-		"response": "FineChem a acquis le laboratoire de recherche en chimie organique de Lyon pour renforcer sa position en tant que leader dans la recherche et le développement de nouvelles molécules organiques."
+		"news_category": "health",
+		"news_context": "Les compagnies d'assurance en France ajustent leurs politiques pour tenir compte de l'arrêt maladie sans jour de carence pour fausse couche à partir du 1ᵉʳ janvier 2024, reflétant l'impact de cette mesure sur les couvertures médicales des femmes concernées.",
+		"question": "comment les assurances en France réagissent-elles à cette évolution en matière de congé maladie pour fausse couche?",
+		"response": "Les compagnies d'assurance en France ajustent leurs politiques pour tenir compte de l'arrêt maladie sans jour de carence pour fausse couche à partir du 1ᵉʳ janvier 2024."
 	},
 	{
-		"news_category": "science",
-		"news_context": "Le groupe pharmaceutique GenoBio a récemment acquis le centre de recherche en génétique de Toulouse, consolidant sa présence dans le secteur de la recherche génétique et des thérapies géniques.",
-		"question": "Quelles sont les ambitions du groupe pharmaceutique GenoBio en acquerant le centre de recherche en génétique de Toulouse?",
-		"response": "Les ambitions du groupe pharmaceutique GenoBio en acquérant le centre de recherche en génétique de Toulouse sont de renforcer sa présence dans le secteur de la recherche génétique et des thérapies géniques."
-	},
-	{
-		"news_category": "science",
-		"news_context": "La société de biotechnologie NeuroInnovate a racheté le laboratoire de neurosciences de Strasbourg, soulignant son engagement envers la recherche de pointe dans le domaine des sciences du cerveau.",
-		"question": "Pourquoi la société de biotechnologie NeuroInnovate a racheté le laboratoire de neurosciences de Strasbourg?",
-		"response": "La société de biotechnologie NeuroInnovate a racheté le laboratoire de neurosciences de Strasbourg pour renforcer son engagement envers la recherche de pointe dans le domaine des sciences du cerveau."
+		"news_category": "top",
+		"news_context": "La cessation du programme des imams 'détachés' soulève des questions juridiques en France, notamment en ce qui concerne les contrats existants et les implications légales pour les institutions religieuses.",
+		"question": "quels sont les enjeux juridiques liés à la fin du programme des imams 'détachés' en France?",
+		"response": "Les enjeux juridiques liés à la fin du programme des imams 'détachés' en France concernent principalement les contrats existants et les implications légales pour les institutions religieuses."
 	},
 	{
 		"news_category": "science",
@@ -42,28 +36,16 @@
 		"response": "La prise du contrôle du centre de recherche en écologie marine de Brest par l'institut de recherche en écologie BlueEco contribuera à la préservation des écosystèmes marins en permettant une meilleure compréhension des écosystèmes marins et en développant des solutions innovantes pour leur conservation."
 	},
 	{
-		"news_category": "science",
-		"news_context": "L'Organisation européenne de recherche en informatique a acquis le laboratoire de recherche en informatique de Rennes, renforçant ainsi la collaboration internationale dans le domaine de l'informatique et de la technologie de l'information.",
-		"question": "Quels sont les enjeux de l'acquisition du laboratoire de recherche en informatique de Rennes par l'Organisation européenne de recherche en informatique?",
-		"response": "Les enjeux de l'acquisition du laboratoire de recherche en informatique de Rennes par l'Organisation européenne de recherche en informatique sont de renforcer la collaboration internationale dans le domaine de l'informatique et de la technologie de l'information."
-	},
-	{
-		"news_category": "science",
-		"news_context": "Les risques de fausse couche associés à certains somnifères soulèvent des questions sur les implications légales pour les fabricants en France, suscitant des débats sur la réglementation.",
-		"question": "Quelles sont les implications légales en France pour les fabricants de somnifères liées aux risques de fausse couche?",
-		"response": "Les implications légales en France pour les fabricants de somnifères liées aux risques de fausse couche sont sujettes à des débats sur la réglementation."
-	},
-	{
 		"news_category": "politics",
-		"news_context": "À Lille. Les responsables politiques explorent des stratégies pour favoriser la transition énergétique.",
-		"question": "comment le gouvernement envisage-t-il de stimuler la transition vers les énergies renouvelables en France?",
-		"response": "Le gouvernement envisage de stimuler la transition vers les énergies renouvelables en France en mettant en place des stratégies favorables à la transition énergétique à Lille."
+		"news_context": "À Paris. Des consultations ont lieu sur la manière dont la France peut collaborer avec d'autres nations européennes pour renforcer l'utilisation des énergies renouvelables dans toute la région.",
+		"question": "comment la France prévoit-elle de coopérer avec d'autres nations européennes pour promouvoir les énergies renouvelables?",
+		"response": "La France prévoit de collaborer avec d'autres nations européennes pour renforcer l'utilisation des énergies renouvelables dans toute la région grâce à des consultations à Paris."
 	},
 	{
-		"news_category": "politics",
-		"news_context": "À Lyon. Les autorités locales examinent les initiatives visant à intégrer les énergies renouvelables dans les services publics.",
-		"question": "quels sont les projets en cours pour promouvoir l'utilisation des énergies renouvelables dans le secteur public français?",
-		"response": "À Lyon, les autorités locales examinent les initiatives visant à intégrer les énergies renouvelables dans les services publics."
+		"news_category": "entertainment",
+		"news_context": "Le processus de préparation du spectacle 'Denver, le dernier dinosaure' par le duo Arthur Jugnot et Guillaume Bouchède au théâtre de la Renaissance en France intrigue les amateurs de théâtre et les curieux de l'envers du décor.",
+		"question": "comment le duo Arthur Jugnot et Guillaume Bouchède a-t-il préparé le spectacle 'Denver, le dernier dinosaure' en France?",
+		"response": "Il n'y a pas suffisamment d'informations dans le contexte pour répondre à la question sur la préparation du spectacle 'Denver, le dernier dinosaure' par le duo Arthur Jugnot et Guillaume Bouchède en France."
 	},
 	{
 		"news_category": "politics",
@@ -73,315 +55,9 @@
 	},
 	{
 		"news_category": "politics",
-		"news_context": "À Marseille. Les responsables politiques examinent les options pour stimuler l'innovation dans le secteur des énergies renouvelables.",
-		"question": "quelles sont les mesures prévues pour encourager l'innovation dans le domaine des énergies renouvelables en France?",
-		"response": "Il n'y a pas suffisamment d'informations dans le contexte pour donner une réponse précise sur les mesures prévues pour encourager l'innovation dans le domaine des énergies renouvelables en France à Marseille."
-	},
-	{
-		"news_category": "politics",
-		"news_context": "À Nice. Les discussions portent sur la manière de renforcer l'indépendance énergétique en favorisant les énergies renouvelables.",
-		"question": "comment les politiciens français abordent-ils la question de l'indépendance énergétique à travers les énergies renouvelables?",
-		"response": "Les politiciens français abordent la question de l'indépendance énergétique en favorisant les énergies renouvelables lors des discussions à Nice."
-	},
-	{
-		"news_category": "politics",
-		"news_context": "À Bordeaux. Les responsables politiques discutent des stratégies visant à réduire la dépendance aux énergies fossiles et à favoriser les énergies renouvelables.",
-		"question": "quels sont les plans du gouvernement français pour réduire la dépendance aux énergies fossiles au profit des énergies renouvelables?",
-		"response": "Le gouvernement français a mis en place plusieurs plans pour réduire la dépendance aux énergies fossiles au profit des énergies renouvelables. Parmi ces plans, on peut citer le développement de l'énergie éolienne offshore, l'augmentation de la production d'énergie solaire, la promotion de l'efficacité énergétique dans les bâtiments et le soutien à la recherche et à l'innovation dans le"
-	},
-	{
-		"news_category": "politics",
-		"news_context": "À Strasbourg. Les élus locaux débattent des actions à entreprendre pour promouvoir activement les énergies renouvelables dans leurs régions respectives.",
-		"question": "comment les élus locaux s'engagent-ils à promouvoir les énergies renouvelables dans leurs régions respectives en France?",
-		"response": "Les élus locaux à Strasbourg débattent des actions à entreprendre pour promouvoir activement les énergies renouvelables dans leurs régions respectives."
-	},
-	{
-		"news_category": "politics",
-		"news_context": "À Grenoble. Les discussions portent sur la création de politiques incitatives pour attirer les investissements privés dans le secteur des énergies renouvelables.",
-		"question": "quelles politiques sont envisagées pour encourager les investissements privés dans le secteur des énergies renouvelables en France?",
-		"response": "Il existe plusieurs politiques envisagées pour encourager les investissements privés dans le secteur des énergies renouvelables en France, notamment à Grenoble. Cela peut inclure des incitations fiscales telles que des réductions d'impôts ou des crédits d'impôt pour les entreprises qui investissent dans les énergies renouvelables. Des subventions et des aides financières peuvent également être mises en place pour sout"
-	},
-	{
-		"news_category": "politics",
-		"news_context": "À Paris. Des consultations ont lieu sur la manière dont la France peut collaborer avec d'autres nations européennes pour renforcer l'utilisation des énergies renouvelables dans toute la région.",
-		"question": "comment la France prévoit-elle de coopérer avec d'autres nations européennes pour promouvoir les énergies renouvelables?",
-		"response": "La France prévoit de collaborer avec d'autres nations européennes pour renforcer l'utilisation des énergies renouvelables dans toute la région grâce à des consultations à Paris."
-	},
-	{
-		"news_category": "environment",
-		"news_context": "Des inondations touchent plusieurs régions françaises, causant des dégâts matériels importants.",
-		"question": "quel est le bilan des catastrophes naturelles en France?",
-		"response": "Le bilan des catastrophes naturelles en France est marqué par des inondations récentes qui ont touché plusieurs régions du pays, causant d'importants dégâts matériels."
-	},
-	{
-		"news_category": "environment",
-		"news_context": "Des vagues de chaleur exceptionnelles frappent le pays, entraînant des mesures d'urgence pour protéger la population.",
-		"question": "comment la France fait-elle face aux changements climatiques?",
-		"response": "La France fait face aux changements climatiques en prenant des mesures d'urgence pour protéger la population des vagues de chaleur exceptionnelles qui frappent le pays."
-	},
-	{
-		"news_category": "environment",
-		"news_context": "Une tempête violente frappe la côte atlantique française, entraînant des évacuations massives et des dommages considérables.",
-		"question": "quelles sont les tendances des tempêtes en France?",
-		"response": "Les tempêtes en France sont de plus en plus violentes, entraînant des évacuations massives et des dommages considérables."
-	},
-	{
-		"news_category": "environment",
-		"news_context": "Des variations climatiques influent sur les rendements agricoles, suscitant des préoccupations quant à la sécurité alimentaire.",
-		"question": "comment les changements climatiques affectent-ils l'agriculture en France?",
-		"response": "Les changements climatiques en France affectent l'agriculture en entraînant des variations climatiques qui influent sur les rendements agricoles. Cela suscite des préoccupations quant à la sécurité alimentaire."
-	},
-	{
-		"news_category": "environment",
-		"news_context": "Des mesures sont prises pour réduire la pollution atmosphérique dans les grandes villes françaises, visant à améliorer la qualité de l'air.",
-		"question": "comment les villes françaises luttent-elles contre la pollution?",
-		"response": "Les villes françaises luttent contre la pollution en prenant des mesures pour réduire la pollution atmosphérique et améliorer la qualité de l'air."
-	},
-	{
-		"news_category": "environment",
-		"news_context": "Des chercheurs français développent des technologies innovantes pour lutter contre les impacts environnementaux, marquant des progrès significatifs dans le domaine de la science environnementale.",
-		"question": "quelles avancées scientifiques contribuent à la protection de l'environnement en France?",
-		"response": "Les chercheurs français développent des technologies innovantes pour lutter contre les impacts environnementaux, contribuant ainsi à la protection de l'environnement en France."
-	},
-	{
-		"news_category": "sports",
-		"news_context": "Mercato - PSG : Pour 40M€, Paris tire le gros lot.",
-		"question": "quelles sont les dernières acquisitions lors du Mercato en France?",
-		"response": "Le PSG a réalisé une acquisition pour 40M€ lors du Mercato en France."
-	},
-	{
-		"news_category": "sports",
-		"news_context": "Les équipes de football en France font des transactions importantes, le PSG en particulier réalisant un transfert majeur de 40M€.",
-		"question": "quels sont les transferts les plus coûteux lors du Mercato en France cette saison?",
-		"response": "Le transfert le plus coûteux lors du Mercato en France cette saison est celui du PSG pour 40M€."
-	},
-	{
-		"news_category": "sports",
-		"news_context": "Les transferts majeurs pendant le Mercato en France influent sur la compétitivité des équipes, avec le PSG qui renforce sa position grâce à une transaction de 40M€.",
-		"question": "quel impact les transferts du Mercato ont-ils sur la compétitivité des équipes françaises?",
-		"response": "Les transferts du Mercato ont un impact significatif sur la compétitivité des équipes françaises, avec le renforcement de la position du PSG grâce à une transaction de 40M€."
-	},
-	{
-		"news_category": "sports",
-		"news_context": "Le Mercato en France met en lumière de jeunes talents qui attirent l'attention des clubs, ajoutant une dimension excitante aux transactions, dont celle de 40M€ impliquant le PSG.",
-		"question": "quels sont les jeunes talents qui ont attiré l'attention des clubs pendant le Mercato en France?",
-		"response": "Il y a eu plusieurs jeunes talents qui ont attiré l'attention des clubs pendant le Mercato en France, mais aucun nom spécifique n'est mentionné dans le contexte."
-	},
-	{
-		"news_category": "sports",
-		"news_context": "Les entraîneurs en France évaluent la performance de leurs équipes après le Mercato, tenant compte des transactions majeures, comme celle de 40M€ réalisée par le PSG.",
-		"question": "comment les entraîneurs évaluent-ils la performance des équipes après le Mercato en France?",
-		"response": "Les entraîneurs évaluent la performance des équipes après le Mercato en France en prenant en compte les transactions majeures, comme celle de 40M€ réalisée par le PSG."
-	},
-	{
-		"news_category": "sports",
-		"news_context": "Les transactions du Mercato en France ont des implications financières majeures, avec des montants comme les 40M€ investis par le PSG qui suscitent des discussions sur les enjeux économiques du football.",
-		"question": "quels sont les enjeux financiers liés aux transactions du Mercato en France?",
-		"response": "Les enjeux financiers liés aux transactions du Mercato en France sont majeurs, avec des montants comme les 40M€ investis par le PSG qui suscitent des discussions sur les enjeux économiques du football."
-	},
-	{
-		"news_category": "business",
-		"news_context": "La réforme de Pôle emploi, devenu France Travail au 1er janvier, entraîne d'importantes modifications dans le fonctionnement de l'organisme en France.",
-		"question": "quelles sont les principales modifications apportées par la réforme de France Travail au Pôle emploi en France?",
-		"response": "La réforme de France Travail au Pôle emploi en France entraîne d'importantes modifications dans le fonctionnement de l'organisme."
-	},
-	{
-		"news_category": "business",
-		"news_context": "Les demandeurs d'emploi en France voient leur situation influencée par la réforme de Pôle emploi, rebaptisé France Travail, avec des changements notables dans les services et les procédures.",
-		"question": "comment la réforme de France Travail impacte-t-elle les demandeurs d'emploi en France?",
-		"response": "La réforme de France Travail impacte les demandeurs d'emploi en France en apportant des changements notables dans les services et les procédures de Pôle emploi."
-	},
-	{
-		"news_category": "business",
-		"news_context": "La réforme de Pôle emploi, devenu France Travail, vise à atteindre des objectifs spécifiques en France, modifiant les structures existantes pour améliorer le service aux chômeurs.",
-		"question": "quel est l'objectif principal de la réforme de France Travail au Pôle emploi en France?",
-		"response": "L'objectif principal de la réforme de France Travail au Pôle emploi en France est d'améliorer le service aux chômeurs."
-	},
-	{
-		"news_category": "business",
-		"news_context": "La transformation de Pôle emploi en France Travail suscite des réactions variées parmi les entreprises en France, certaines accueillant favorablement les changements, tandis que d'autres expriment des inquiétudes.",
-		"question": "comment les entreprises françaises réagissent-elles à la transformation de Pôle emploi en France Travail?",
-		"response": "Les entreprises françaises ont des réactions variées à la transformation de Pôle emploi en France Travail. Certaines accueillent favorablement les changements, tandis que d'autres expriment des inquiétudes."
-	},
-	{
-		"news_category": "business",
-		"news_context": "La réforme de Pôle emploi, rebaptisé France Travail, s'accompagne de mesures spécifiques visant à mieux accompagner les demandeurs d'emploi en France dans leur recherche de travail.",
-		"question": "quelles sont les mesures d'accompagnement mises en place avec la réforme de France Travail au Pôle emploi en France?",
-		"response": "Les mesures d'accompagnement mises en place avec la réforme de France Travail au Pôle emploi en France visent à mieux accompagner les demandeurs d'emploi dans leur recherche de travail."
-	},
-	{
-		"news_category": "business",
-		"news_context": "Les services aux entreprises en France sont touchés par la réforme de Pôle emploi devenu France Travail, avec des ajustements dans les procédures de recrutement et de placement de personnel.",
-		"question": "comment la réforme de France Travail impacte-t-elle les services aux entreprises en France?",
-		"response": "La réforme de France Travail impacte les services aux entreprises en France en apportant des ajustements dans les procédures de recrutement et de placement de personnel."
-	},
-	{
-		"news_category": "business",
-		"news_context": "France Travail, anciennement Pôle emploi, lance de nouvelles initiatives visant à stimuler l'emploi en France, introduisant des programmes et des incitations pour les employeurs et les chercheurs d'emploi.",
-		"question": "quelles sont les nouvelles initiatives mises en place par France Travail pour favoriser l'emploi en France?",
-		"response": "France Travail a lancé de nouvelles initiatives pour favoriser l'emploi en France, telles que des programmes et des incitations pour les employeurs et les chercheurs d'emploi."
-	},
-	{
-		"news_category": "entertainment",
-		"news_context": "Le nouveau spectacle 'Denver, le dernier dinosaure' d'Arthur Jugnot et Guillaume Bouchède au théâtre de la Renaissance suscite des critiques et des réactions variées en France.",
-		"question": "quelles sont les critiques du nouveau spectacle d'Arthur Jugnot et Guillaume Bouchède au théâtre de la Renaissance en France?",
-		"response": "Les critiques du nouveau spectacle 'Denver, le dernier dinosaure' d'Arthur Jugnot et Guillaume Bouchède au théâtre de la Renaissance en France sont variées."
-	},
-	{
-		"news_category": "entertainment",
-		"news_context": "Le public en France exprime ses réactions au spectacle 'Denver, le dernier dinosaure' d'Arthur Jugnot et Guillaume Bouchède, partageant des opinions diverses sur les réseaux sociaux et dans les médias.",
-		"question": "comment le public français réagit-il au spectacle 'Denver, le dernier dinosaure' d'Arthur Jugnot et Guillaume Bouchède?",
-		"response": "Les réactions du public français au spectacle 'Denver, le dernier dinosaure' d'Arthur Jugnot et Guillaume Bouchède sont diverses, avec des opinions partagées sur les réseaux sociaux et dans les médias."
-	},
-	{
-		"news_category": "entertainment",
-		"news_context": "Le thème central du nouveau spectacle 'Denver, le dernier dinosaure' d'Arthur Jugnot et Guillaume Bouchède au théâtre de la Renaissance en France intrigue les amateurs de théâtre et suscite des discussions.",
-		"question": "quel est le thème principal du nouveau spectacle d'Arthur Jugnot et Guillaume Bouchède au théâtre de la Renaissance en France?",
-		"response": "Le thème principal du nouveau spectacle d'Arthur Jugnot et Guillaume Bouchède au théâtre de la Renaissance en France est 'Denver, le dernier dinosaure'."
-	},
-	{
-		"news_category": "entertainment",
-		"news_context": "L'anticipation monte parmi le public français avant la première du spectacle 'Denver, le dernier dinosaure' d'Arthur Jugnot et Guillaume Bouchède au théâtre de la Renaissance, avec des attentes élevées et des espoirs de divertissement exceptionnel.",
-		"question": "quelles sont les attentes du public avant la première du spectacle 'Denver, le dernier dinosaure' d'Arthur Jugnot et Guillaume Bouchède en France?",
-		"response": "Le public français attend un divertissement exceptionnel de la première du spectacle 'Denver, le dernier dinosaure' d'Arthur Jugnot et Guillaume Bouchède au théâtre de la Renaissance."
-	},
-	{
-		"news_category": "entertainment",
-		"news_context": "Les critiques de théâtre en France évaluent la performance d'Arthur Jugnot et Guillaume Bouchède dans 'Denver, le dernier dinosaure', offrant des analyses détaillées de leurs compétences artistiques.",
-		"question": "comment la presse française évalue-t-elle la performance d'Arthur Jugnot et Guillaume Bouchède dans 'Denver, le dernier dinosaure'?",
-		"response": "Il n'y a pas suffisamment d'informations dans le contexte donné pour répondre à la question."
-	},
-	{
-		"news_category": "entertainment",
-		"news_context": "Les moments marquants du spectacle 'Denver, le dernier dinosaure' d'Arthur Jugnot et Guillaume Bouchède au théâtre de la Renaissance deviennent le sujet de discussion dans les cercles artistiques et parmi le public français.",
-		"question": "quels sont les moments forts du spectacle 'Denver, le dernier dinosaure' d'Arthur Jugnot et Guillaume Bouchède en France?",
-		"response": "Les moments forts du spectacle 'Denver, le dernier dinosaure' d'Arthur Jugnot et Guillaume Bouchède en France sont devenus le sujet de discussion dans les cercles artistiques et parmi le public français."
-	},
-	{
-		"news_category": "entertainment",
-		"news_context": "Le processus de préparation du spectacle 'Denver, le dernier dinosaure' par le duo Arthur Jugnot et Guillaume Bouchède au théâtre de la Renaissance en France intrigue les amateurs de théâtre et les curieux de l'envers du décor.",
-		"question": "comment le duo Arthur Jugnot et Guillaume Bouchède a-t-il préparé le spectacle 'Denver, le dernier dinosaure' en France?",
-		"response": "Il n'y a pas suffisamment d'informations dans le contexte pour répondre à la question sur la préparation du spectacle 'Denver, le dernier dinosaure' par le duo Arthur Jugnot et Guillaume Bouchède en France."
-	},
-	{
-		"news_category": "entertainment",
-		"news_context": "Les influences artistiques et créatives qui ont façonné le spectacle 'Denver, le dernier dinosaure' d'Arthur Jugnot et Guillaume Bouchède au théâtre de la Renaissance en France sont examinées par les critiques et les amateurs de théâtre.",
-		"question": "quelles sont les influences créatives derrière le spectacle 'Denver, le dernier dinosaure' d'Arthur Jugnot et Guillaume Bouchède en France?",
-		"response": "Les influences créatives derrière le spectacle 'Denver, le dernier dinosaure' d'Arthur Jugnot et Guillaume Bouchède en France ne sont pas mentionnées dans le contexte donné."
-	},
-	{
-		"news_category": "entertainment",
-		"news_context": "Le public français découvre des éléments novateurs et surprenants dans le spectacle 'Denver, le dernier dinosaure' d'Arthur Jugnot et Guillaume Bouchède, générant un enthousiasme particulier au sein de la communauté artistique.",
-		"question": "y a-t-il des éléments novateurs ou surprenants dans le spectacle 'Denver, le dernier dinosaure' d'Arthur Jugnot et Guillaume Bouchède en France?",
-		"response": "Oui, le spectacle 'Denver, le dernier dinosaure' d'Arthur Jugnot et Guillaume Bouchède présente des éléments novateurs et surprenants qui suscitent un enthousiasme particulier au sein de la communauté artistique en France."
-	},
-	{
-		"news_category": "top",
-		"news_context": "La fin des imams 'détachés' suscite des changements significatifs dans la formation des nouveaux imams en France, modifiant les procédures et les exigences.",
-		"question": "comment la fin des imams 'détachés' va-t-elle influencer la formation des nouveaux imams en France?",
-		"response": "La fin des imams 'détachés' en France va probablement influencer la formation des nouveaux imams en modifiant les procédures et les exigences."
-	},
-	{
-		"news_category": "top",
-		"news_context": "Suite à la fin du programme des imams 'détachés', de nouvelles directives sont établies pour la formation des imams en France, visant à garantir une approche plus locale et intégrée.",
-		"question": "quelles nouvelles directives sont mises en place pour la formation des imams suite à la fin du programme des imams 'détachés'?",
-		"response": "Les nouvelles directives mises en place pour la formation des imams suite à la fin du programme des imams 'détachés' visent à garantir une approche plus locale et intégrée."
-	},
-	{
-		"news_category": "top",
-		"news_context": "Les institutions éducatives en France s'adaptent à la fin du programme des imams 'détachés' en ajustant leurs programmes de formation pour répondre aux nouvelles exigences et attentes.",
-		"question": "comment les institutions éducatives en France s'adaptent-elles à la cessation du programme des imams 'détachés'?",
-		"response": "Les institutions éducatives en France ajustent leurs programmes de formation pour répondre aux nouvelles exigences et attentes suite à la cessation du programme des imams 'détachés'."
-	},
-	{
-		"news_category": "top",
-		"news_context": "La fin des imams 'détachés' pourrait avoir des impacts sur la diversité culturelle et religieuse dans la formation des nouveaux imams en France, suscitant des discussions sur l'inclusion.",
-		"question": "quels sont les impacts prévus sur la diversité culturelle et religieuse dans la formation des nouveaux imams en France?",
-		"response": "La fin des imams 'détachés' en France pourrait avoir un impact sur la diversité culturelle et religieuse dans la formation des nouveaux imams. Cela suscite des discussions sur l'inclusion et la nécessité de former des imams qui reflètent la diversité de la société française."
-	},
-	{
-		"news_category": "top",
-		"news_context": "La fin du programme des imams 'détachés' suscite des réactions diverses au sein des communautés religieuses en France, avec des discussions sur son impact et ses implications.",
-		"question": "comment les communautés religieuses réagissent-elles à la cessation du programme des imams 'détachés' en France?",
-		"response": "Les communautés religieuses en France réagissent de manière diverse à la cessation du programme des imams 'détachés'. Certaines communautés voient cela comme une opportunité de renforcer l'autonomie et l'indépendance des imams français, tandis que d'autres expriment des inquiétudes quant à la capacité de former suffisamment d'imams locaux qualifiés. Les discussions se concentrent sur l'"
-	},
-	{
-		"news_category": "top",
-		"news_context": "Les autorités religieuses en France expriment leurs attentes concernant la nouvelle approche de formation des imams suite à la fin du programme des imams 'détachés'.",
-		"question": "quelles sont les attentes des autorités religieuses en France vis-à-vis de la nouvelle approche de formation des imams?",
-		"response": "Les autorités religieuses en France attendent une nouvelle approche de formation des imams suite à la fin du programme des imams 'détachés'."
-	},
-	{
-		"news_category": "top",
-		"news_context": "Les programmes éducatifs des imams en France subissent des ajustements suite à la cessation des imams 'détachés', reflétant les nouvelles orientations et priorités.",
-		"question": "quels ajustements sont apportés aux programmes éducatifs des imams suite à la cessation des imams 'détachés'?",
-		"response": "Les ajustements apportés aux programmes éducatifs des imams suite à la cessation des imams 'détachés' en France reflètent les nouvelles orientations et priorités."
-	},
-	{
-		"news_category": "top",
-		"news_context": "La fin du programme des imams 'détachés' est accompagnée d'initiatives visant à renforcer l'intégration des imams dans la société française, favorisant un dialogue interculturel plus étroit.",
-		"question": "comment la fin du programme des imams 'détachés' vise-t-elle à renforcer l'intégration des imams dans la société française?",
-		"response": "La fin du programme des imams 'détachés' vise à renforcer l'intégration des imams dans la société française en favorisant un dialogue interculturel plus étroit."
-	},
-	{
-		"news_category": "top",
-		"news_context": "La cessation du programme des imams 'détachés' soulève des questions juridiques en France, notamment en ce qui concerne les contrats existants et les implications légales pour les institutions religieuses.",
-		"question": "quels sont les enjeux juridiques liés à la fin du programme des imams 'détachés' en France?",
-		"response": "Les enjeux juridiques liés à la fin du programme des imams 'détachés' en France concernent principalement les contrats existants et les implications légales pour les institutions religieuses."
-	},
-	{
-		"news_category": "top",
-		"news_context": "Certains estiment que la fin des imams 'détachés' pourrait contribuer à la prévention de la radicalisation en France en favorisant une approche plus locale et intégrée dans la formation des nouveaux imams.",
-		"question": "comment la fin des imams 'détachés' peut-elle contribuer à la prévention de la radicalisation en France?",
-		"response": "La fin des imams 'détachés' peut contribuer à la prévention de la radicalisation en favorisant une approche plus locale et intégrée dans la formation des nouveaux imams, ce qui permettrait une meilleure compréhension des réalités et des enjeux spécifiques de la société française. Cela pourrait favoriser un discours religieux adapté à la réalité française, réduisant ainsi les risques de radicalisation."
-	},
-	{
-		"news_category": "technology",
-		"news_context": "Les utilisateurs en France expérimentent la révolution technologique de la bague connectée Ultrahuman Ring Air, qui fournit des conseils de santé innovants.",
-		"question": "comment la bague connectée Ultrahuman Ring Air révolutionne-t-elle la santé en France?",
-		"response": "La bague connectée Ultrahuman Ring Air révolutionne la santé en France en fournissant des conseils de santé innovants aux utilisateurs."
-	},
-	{
-		"news_category": "technology",
-		"news_context": "L'Ultrahuman Ring Air se distingue des autres inventions technologiques en France en offrant des fonctionnalités uniques et des conseils de santé brillants.",
-		"question": "quels sont les avantages de l'Ultrahuman Ring Air par rapport aux autres inventions technologiques en France?",
-		"response": "L'Ultrahuman Ring Air se distingue des autres inventions technologiques en France grâce à ses fonctionnalités uniques et à ses conseils de santé brillants."
-	},
-	{
-		"news_category": "technology",
-		"news_context": "L'Ultrahuman Ring Air s'intègre de plus en plus dans la vie quotidienne des Français, offrant une expérience technologique novatrice axée sur la santé.",
-		"question": "comment l'Ultrahuman Ring Air est-elle intégrée dans la vie quotidienne des Français?",
-		"response": "L'Ultrahuman Ring Air est de plus en plus intégrée dans la vie quotidienne des Français, offrant une expérience technologique novatrice axée sur la santé."
-	},
-	{
-		"news_category": "technology",
-		"news_context": "L'Ultrahuman Ring Air influence l'industrie technologique en France en introduisant de nouvelles normes et en stimulant l'innovation dans le domaine de la santé connectée.",
-		"question": "quel impact l'Ultrahuman Ring Air a-t-elle sur l'industrie technologique en France?",
-		"response": "L'Ultrahuman Ring Air a un impact positif sur l'industrie technologique en France en stimulant l'innovation dans le domaine de la santé connectée et en introduisant de nouvelles normes."
-	},
-	{
-		"news_category": "technology",
-		"news_context": "Les utilisateurs en France découvrent les fonctionnalités avancées de l'Ultrahuman Ring Air, qui vont au-delà des attentes pour une expérience technologique exceptionnelle.",
-		"question": "quelles sont les fonctionnalités clés de la bague connectée Ultrahuman Ring Air en France?",
-		"response": "Les fonctionnalités clés de la bague connectée Ultrahuman Ring Air en France vont au-delà des attentes pour une expérience technologique exceptionnelle."
-	},
-	{
-		"news_category": "technology",
-		"news_context": "Les autorités réglementaires en France examinent de près l'Ultrahuman Ring Air pour s'assurer de sa conformité aux normes de sécurité et de protection des données.",
-		"question": "comment les autorités réglementaires en France réagissent-elles à l'émergence de la bague connectée Ultrahuman Ring Air?",
-		"response": "Les autorités réglementaires en France examinent attentivement l'Ultrahuman Ring Air pour vérifier sa conformité aux normes de sécurité et de protection des données."
-	},
-	{
-		"news_category": "technology",
-		"news_context": "Les consommateurs en France ont des attentes élevées à l'égard de l'Ultrahuman Ring Air, anticipant des avantages significatifs pour leur bien-être et leur santé.",
-		"question": "quelles sont les attentes des consommateurs français à l'égard de l'Ultrahuman Ring Air?",
-		"response": "Les consommateurs français attendent des avantages significatifs pour leur bien-être et leur santé de l'Ultrahuman Ring Air."
-	},
-	{
-		"news_category": "technology",
-		"news_context": "L'Ultrahuman Ring Air joue un rôle clé dans la transformation numérique du secteur de la santé en France, intégrant la technologie pour améliorer les soins personnels.",
-		"question": "comment l'Ultrahuman Ring Air contribue-t-elle à la transformation numérique du secteur de la santé en France?",
-		"response": "L'Ultrahuman Ring Air contribue à la transformation numérique du secteur de la santé en France en intégrant la technologie pour améliorer les soins personnels."
+		"news_context": "À Nantes. Des propositions sont à l'étude pour sensibiliser le public à l'importance des énergies renouvelables dans le contexte éducatif.",
+		"question": "quelles initiatives sont envisagées pour promouvoir l'éducation et la sensibilisation à l'importance des énergies renouvelables en France?",
+		"response": "À Nantes, des propositions sont à l'étude pour sensibiliser le public à l'importance des énergies renouvelables dans le contexte éducatif."
 	},
 	{
 		"news_category": "technology",
@@ -391,33 +67,231 @@
 	},
 	{
 		"news_category": "world",
-		"news_context": "La guerre Israël-Hamas, avec l'État hébreu poussant l'Autorité palestinienne à la faillite, motive la France à contribuer activement aux efforts internationaux pour résoudre le conflit israélo-palestinien.",
-		"question": "comment la France contribue-t-elle aux efforts internationaux visant à résoudre le conflit israélo-palestinien?",
-		"response": "La France contribue activement aux efforts internationaux pour résoudre le conflit israélo-palestinien en soutenant l'Autorité palestinienne et en cherchant à prévenir sa faillite face à la guerre entre Israël et le Hamas."
-	},
-	{
-		"news_category": "world",
-		"news_context": "L'État hébreu intensifie les tensions en poussant l'Autorité palestinienne à la faillite, suscitant des réactions variées des leaders politiques français face à l'escalade du conflit Israël-Hamas.",
-		"question": "quelles sont les réactions des leaders politiques français face à l'escalade récente du conflit Israël-Hamas?",
-		"response": "Les réactions des leaders politiques français face à l'escalade récente du conflit Israël-Hamas sont variées."
-	},
-	{
-		"news_category": "world",
-		"news_context": "La guerre Israël-Hamas, avec les actions de l'État hébreu contre l'Autorité palestinienne, suscite diverses perceptions parmi les citoyens français quant aux événements actuels dans le conflit israélo-palestinien.",
-		"question": "comment les citoyens français perçoivent-ils les événements actuels dans le conflit israélo-palestinien?",
-		"response": "Il est difficile de donner une réponse précise sur la perception des citoyens français quant aux événements actuels dans le conflit israélo-palestinien sans avoir accès à des sondages ou des études d'opinion spécifiques. Cependant, il est probable que les opinions soient diverses et variées, reflétant les différentes sensibilités politiques, religieuses et culturelles présentes en France. Certains cit"
-	},
-	{
-		"news_category": "world",
 		"news_context": "La France, consciente des récents développements du conflit israélo-palestinien avec l'État hébreu poussant l'Autorité palestinienne à la faillite, cherche à jouer un rôle significatif dans la promotion de la paix au Moyen-Orient.",
 		"question": "quel rôle joue la France dans la promotion de la paix au Moyen-Orient malgré les récents développements du conflit israélo-palestinien?",
 		"response": "La France cherche à jouer un rôle significatif dans la promotion de la paix au Moyen-Orient malgré les récents développements du conflit israélo-palestinien."
 	},
 	{
+		"news_category": "sports",
+		"news_context": "Les transferts majeurs pendant le Mercato en France influent sur la compétitivité des équipes, avec le PSG qui renforce sa position grâce à une transaction de 40M€.",
+		"question": "quel impact les transferts du Mercato ont-ils sur la compétitivité des équipes françaises?",
+		"response": "Les transferts du Mercato ont un impact significatif sur la compétitivité des équipes françaises, avec le renforcement de la position du PSG grâce à une transaction de 40M€."
+	},
+	{
+		"news_category": "health",
+		"news_context": "L'État français évalue les implications financières de l'instauration de l'arrêt maladie sans jour de carence pour fausse couche, considérant les coûts potentiels et les avantages sociaux de cette mesure à partir du 1ᵉʳ janvier 2024.",
+		"question": "quelles sont les implications financières pour l'État français liées à l'instauration de l'arrêt maladie sans jour de carence pour fausse couche?",
+		"response": "Les implications financières pour l'État français liées à l'instauration de l'arrêt maladie sans jour de carence pour fausse couche ne sont pas précisées dans le contexte donné."
+	},
+	{
+		"news_category": "environment",
+		"news_context": "Des chercheurs français développent des technologies innovantes pour lutter contre les impacts environnementaux, marquant des progrès significatifs dans le domaine de la science environnementale.",
+		"question": "quelles avancées scientifiques contribuent à la protection de l'environnement en France?",
+		"response": "Les chercheurs français développent des technologies innovantes pour lutter contre les impacts environnementaux, contribuant ainsi à la protection de l'environnement en France."
+	},
+	{
+		"news_category": "entertainment",
+		"news_context": "Le public en France exprime ses réactions au spectacle 'Denver, le dernier dinosaure' d'Arthur Jugnot et Guillaume Bouchède, partageant des opinions diverses sur les réseaux sociaux et dans les médias.",
+		"question": "comment le public français réagit-il au spectacle 'Denver, le dernier dinosaure' d'Arthur Jugnot et Guillaume Bouchède?",
+		"response": "Les réactions du public français au spectacle 'Denver, le dernier dinosaure' d'Arthur Jugnot et Guillaume Bouchède sont diverses, avec des opinions partagées sur les réseaux sociaux et dans les médias."
+	},
+	{
+		"news_category": "environment",
+		"news_context": "Des mesures sont prises pour réduire la pollution atmosphérique dans les grandes villes françaises, visant à améliorer la qualité de l'air.",
+		"question": "comment les villes françaises luttent-elles contre la pollution?",
+		"response": "Les villes françaises luttent contre la pollution en prenant des mesures pour réduire la pollution atmosphérique et améliorer la qualité de l'air."
+	},
+	{
+		"news_category": "health",
+		"news_context": "La formation des professionnels de la santé en France intègre des modules spécifiques pour améliorer le soutien aux femmes victimes de fausse couche, en tenant compte de la nouvelle disposition d'arrêt maladie sans jour de carence à partir du 1ᵉʳ janvier 2024.",
+		"question": "comment les professionnels de la santé en France sont-ils formés pour mieux soutenir les femmes victimes de fausse couche?",
+		"response": "La formation des professionnels de la santé en France intègre des modules spécifiques pour améliorer le soutien aux femmes victimes de fausse couche."
+	},
+	{
+		"news_category": "science",
+		"news_context": "La société de biotechnologie BioTech Innovations a acquis le laboratoire de recherche en biologie marine de Marseille dans le cadre de son expansion dans le domaine des sciences marines.",
+		"question": "Pourriez-vous me parler de l'acquisition du laboratoire de recherche en biologie marine de Marseille par la société de biotechnologie BioTech Innovations?",
+		"response": "BioTech Innovations a acquis le laboratoire de recherche en biologie marine de Marseille dans le cadre de son expansion dans le domaine des sciences marines."
+	},
+	{
+		"news_category": "environment",
+		"news_context": "Des initiatives de préservation des écosystèmes marins sont mises en œuvre pour garantir la durabilité des ressources marines françaises.",
+		"question": "comment la France protège-t-elle ses zones marines?",
+		"response": "La France protège ses zones marines en mettant en place des initiatives de préservation des écosystèmes marins pour garantir la durabilité des ressources marines françaises."
+	},
+	{
+		"news_category": "top",
+		"news_context": "Les programmes éducatifs des imams en France subissent des ajustements suite à la cessation des imams 'détachés', reflétant les nouvelles orientations et priorités.",
+		"question": "quels ajustements sont apportés aux programmes éducatifs des imams suite à la cessation des imams 'détachés'?",
+		"response": "Les ajustements apportés aux programmes éducatifs des imams suite à la cessation des imams 'détachés' en France reflètent les nouvelles orientations et priorités."
+	},
+	{
+		"news_category": "entertainment",
+		"news_context": "Le thème central du nouveau spectacle 'Denver, le dernier dinosaure' d'Arthur Jugnot et Guillaume Bouchède au théâtre de la Renaissance en France intrigue les amateurs de théâtre et suscite des discussions.",
+		"question": "quel est le thème principal du nouveau spectacle d'Arthur Jugnot et Guillaume Bouchède au théâtre de la Renaissance en France?",
+		"response": "Le thème principal du nouveau spectacle d'Arthur Jugnot et Guillaume Bouchède au théâtre de la Renaissance en France est 'Denver, le dernier dinosaure'."
+	},
+	{
+		"news_category": "business",
+		"news_context": "La transformation de Pôle emploi en France Travail fait l'objet d'une couverture médiatique approfondie en France, avec des analyses et des commentaires sur les implications pour le marché du travail.",
+		"question": "comment les médias en France couvrent-ils la réforme de Pôle emploi devenu France Travail?",
+		"response": "Les médias en France couvrent la réforme de Pôle emploi devenu France Travail de manière approfondie, avec des analyses et des commentaires sur les implications pour le marché du travail."
+	},
+	{
+		"news_category": "health",
+		"news_context": "On attend que l'arrêt maladie sans jour de carence, entrant en vigueur le 1ᵉʳ janvier 2024, apporte des bénéfices significatifs aux femmes ayant vécu une fausse couche en France, notamment en termes de récupération physique et émotionnelle.",
+		"question": "quels sont les bénéfices attendus de l'arrêt maladie sans jour de carence pour les femmes ayant vécu une fausse couche en France?",
+		"response": "Les bénéfices attendus de l'arrêt maladie sans jour de carence pour les femmes ayant vécu une fausse couche en France sont une meilleure récupération physique et émotionnelle."
+	},
+	{
+		"news_category": "entertainment",
+		"news_context": "Les moments marquants du spectacle 'Denver, le dernier dinosaure' d'Arthur Jugnot et Guillaume Bouchède au théâtre de la Renaissance deviennent le sujet de discussion dans les cercles artistiques et parmi le public français.",
+		"question": "quels sont les moments forts du spectacle 'Denver, le dernier dinosaure' d'Arthur Jugnot et Guillaume Bouchède en France?",
+		"response": "Les moments forts du spectacle 'Denver, le dernier dinosaure' d'Arthur Jugnot et Guillaume Bouchède en France sont devenus le sujet de discussion dans les cercles artistiques et parmi le public français."
+	},
+	{
+		"news_category": "business",
+		"news_context": "Les syndicats en France réagissent à la transformation de Pôle emploi en France Travail, exprimant leurs opinions sur les implications pour les travailleurs et les négociations collectives.",
+		"question": "quel est le feedback des syndicats français concernant la transformation de Pôle emploi en France Travail?",
+		"response": "Les syndicats français ont exprimé leur inquiétude quant à la transformation de Pôle emploi en France Travail, craignant les implications pour les travailleurs et les négociations collectives."
+	},
+	{
+		"news_category": "environment",
+		"news_context": "Une tempête violente frappe la côte atlantique française, entraînant des évacuations massives et des dommages considérables.",
+		"question": "quelles sont les tendances des tempêtes en France?",
+		"response": "Les tempêtes en France sont de plus en plus violentes, entraînant des évacuations massives et des dommages considérables."
+	},
+	{
+		"news_category": "top",
+		"news_context": "Certains estiment que la fin des imams 'détachés' pourrait contribuer à la prévention de la radicalisation en France en favorisant une approche plus locale et intégrée dans la formation des nouveaux imams.",
+		"question": "comment la fin des imams 'détachés' peut-elle contribuer à la prévention de la radicalisation en France?",
+		"response": "La fin des imams 'détachés' peut contribuer à la prévention de la radicalisation en favorisant une approche plus locale et intégrée dans la formation des nouveaux imams, ce qui permettrait une meilleure compréhension des réalités et des enjeux spécifiques de la société française. Cela pourrait favoriser un discours religieux adapté à la réalité française, réduisant ainsi les risques de radicalisation."
+	},
+	{
 		"news_category": "world",
-		"news_context": "Les récentes actions de l'État hébreu, poussant l'Autorité palestinienne à la faillite, soulèvent des questions sur les perspectives de résolution du conflit israélo-palestinien, générant des discussions en France.",
-		"question": "quelles sont les perspectives de résolution du conflit israélo-palestinien à la lumière des récentes actions de l'État hébreu?",
-		"response": "Il est difficile de prédire les perspectives de résolution du conflit israélo-palestinien à la lumière des récentes actions de l'État hébreu. Cependant, les actions qui ont poussé l'Autorité palestinienne à la faillite soulèvent des questions sur la volonté d'Israël de parvenir à une résolution pacifique. Les discussions en France et dans d'autres pays peuvent contribuer"
+		"news_context": "La guerre Israël-Hamas, avec l'État hébreu poussant l'Autorité palestinienne à la faillite, motive la France à contribuer activement aux efforts internationaux pour résoudre le conflit israélo-palestinien.",
+		"question": "comment la France contribue-t-elle aux efforts internationaux visant à résoudre le conflit israélo-palestinien?",
+		"response": "La France contribue activement aux efforts internationaux pour résoudre le conflit israélo-palestinien en soutenant l'Autorité palestinienne et en cherchant à prévenir sa faillite face à la guerre entre Israël et le Hamas."
+	},
+	{
+		"news_category": "business",
+		"news_context": "La réforme de Pôle emploi, devenu France Travail, a des répercussions sur les financements de l'organisme en France, avec des ajustements dans les budgets alloués aux services pour l'emploi.",
+		"question": "comment la réforme de France Travail impacte-t-elle les financements de Pôle emploi en France?",
+		"response": "La réforme de France Travail impacte les financements de Pôle emploi en France en entraînant des ajustements dans les budgets alloués aux services pour l'emploi."
+	},
+	{
+		"news_category": "top",
+		"news_context": "Les autorités religieuses en France expriment leurs attentes concernant la nouvelle approche de formation des imams suite à la fin du programme des imams 'détachés'.",
+		"question": "quelles sont les attentes des autorités religieuses en France vis-à-vis de la nouvelle approche de formation des imams?",
+		"response": "Les autorités religieuses en France attendent une nouvelle approche de formation des imams suite à la fin du programme des imams 'détachés'."
+	},
+	{
+		"news_category": "world",
+		"news_context": "L'implication de l'État hébreu dans le conflit Israël-Hamas, notamment en poussant l'Autorité palestinienne à la faillite, soulève des questions sur les implications géopolitiques, suscitant l'attention en France.",
+		"question": "quelles sont les implications géopolitiques de l'implication de l'État hébreu dans le conflit Israël-Hamas?",
+		"response": "L'implication de l'État hébreu dans le conflit Israël-Hamas soulève des questions sur les implications géopolitiques, suscitant l'attention en France."
+	},
+	{
+		"news_category": "sports",
+		"news_context": "Le Mercato en France voit des mouvements notables, avec des joueurs de renom rejoignant ou quittant les clubs, dont le PSG avec une transaction de 40M€.",
+		"question": "quels sont les joueurs de renom ayant rejoint ou quitté les clubs français pendant le Mercato?",
+		"response": "Il n'y a pas suffisamment d'informations dans le contexte pour répondre précisément à la question."
+	},
+	{
+		"news_category": "health",
+		"news_context": "En parallèle de l'arrêt maladie sans jour de carence, des dispositifs complémentaires sont envisagés en France pour accompagner les femmes après une fausse couche, soulignant une approche globale de prise en charge.",
+		"question": "existe-t-il des dispositifs complémentaires pour accompagner les femmes après une fausse couche en France?",
+		"response": "Oui, des dispositifs complémentaires sont envisagés en France pour accompagner les femmes après une fausse couche, soulignant une approche globale de prise en charge."
+	},
+	{
+		"news_category": "sports",
+		"news_context": "Les transactions du Mercato en France ont des implications financières majeures, avec des montants comme les 40M€ investis par le PSG qui suscitent des discussions sur les enjeux économiques du football.",
+		"question": "quels sont les enjeux financiers liés aux transactions du Mercato en France?",
+		"response": "Les enjeux financiers liés aux transactions du Mercato en France sont majeurs, avec des montants comme les 40M€ investis par le PSG qui suscitent des discussions sur les enjeux économiques du football."
+	},
+	{
+		"news_category": "top",
+		"news_context": "Les institutions éducatives en France s'adaptent à la fin du programme des imams 'détachés' en ajustant leurs programmes de formation pour répondre aux nouvelles exigences et attentes.",
+		"question": "comment les institutions éducatives en France s'adaptent-elles à la cessation du programme des imams 'détachés'?",
+		"response": "Les institutions éducatives en France ajustent leurs programmes de formation pour répondre aux nouvelles exigences et attentes suite à la cessation du programme des imams 'détachés'."
+	},
+	{
+		"news_category": "business",
+		"news_context": "La transformation de Pôle emploi en France Travail suscite des réactions variées parmi les entreprises en France, certaines accueillant favorablement les changements, tandis que d'autres expriment des inquiétudes.",
+		"question": "comment les entreprises françaises réagissent-elles à la transformation de Pôle emploi en France Travail?",
+		"response": "Les entreprises françaises ont des réactions variées à la transformation de Pôle emploi en France Travail. Certaines accueillent favorablement les changements, tandis que d'autres expriment des inquiétudes."
+	},
+	{
+		"news_category": "technology",
+		"news_context": "L'Ultrahuman Ring Air joue un rôle clé dans la transformation numérique du secteur de la santé en France, intégrant la technologie pour améliorer les soins personnels.",
+		"question": "comment l'Ultrahuman Ring Air contribue-t-elle à la transformation numérique du secteur de la santé en France?",
+		"response": "L'Ultrahuman Ring Air contribue à la transformation numérique du secteur de la santé en France en intégrant la technologie pour améliorer les soins personnels."
+	},
+	{
+		"news_category": "environment",
+		"news_context": "Des efforts de conservation sont déployés pour protéger les espèces menacées dans les écosystèmes français.",
+		"question": "comment la France préserve-t-elle sa biodiversité?",
+		"response": "La France préserve sa biodiversité en déployant des efforts de conservation pour protéger les espèces menacées dans les écosystèmes français."
+	},
+	{
+		"news_category": "technology",
+		"news_context": "L'Ultrahuman Ring Air influence l'industrie technologique en France en introduisant de nouvelles normes et en stimulant l'innovation dans le domaine de la santé connectée.",
+		"question": "quel impact l'Ultrahuman Ring Air a-t-elle sur l'industrie technologique en France?",
+		"response": "L'Ultrahuman Ring Air a un impact positif sur l'industrie technologique en France en stimulant l'innovation dans le domaine de la santé connectée et en introduisant de nouvelles normes."
+	},
+	{
+		"news_category": "politics",
+		"news_context": "À Marseille. Les responsables politiques examinent les options pour stimuler l'innovation dans le secteur des énergies renouvelables.",
+		"question": "quelles sont les mesures prévues pour encourager l'innovation dans le domaine des énergies renouvelables en France?",
+		"response": "Il n'y a pas suffisamment d'informations dans le contexte pour donner une réponse précise sur les mesures prévues pour encourager l'innovation dans le domaine des énergies renouvelables en France à Marseille."
+	},
+	{
+		"news_category": "health",
+		"news_context": "À partir du 1ᵉʳ janvier 2024, un arrêt maladie sans jour de carence est instauré en France pour les femmes victimes de fausse couche, modifiant les implications pour leur prise en charge médicale et professionnelle.",
+		"question": "quelles sont les implications de l'arrêt maladie sans jour de carence pour les femmes victimes de fausse couche en France?",
+		"response": "L'arrêt maladie sans jour de carence pour les femmes victimes de fausse couche en France à partir de janvier 2024 permettra une prise en charge médicale et professionnelle plus favorable pour ces femmes. Elles pourront bénéficier d'un arrêt maladie immédiat sans avoir à attendre un délai de carence, ce qui leur permettra de prendre le temps nécessaire pour se remettre physiquement et é"
+	},
+	{
+		"news_category": "science",
+		"news_context": "Des inquiétudes ont été soulevées concernant l'impact possible de certaines benzodiazépines sur le risque de fausse couche en France.",
+		"question": "Quels sont les effets potentiels des somnifères sur le fœtus en France?",
+		"response": "Les effets potentiels des somnifères sur le fœtus en France peuvent inclure un risque accru de fausse couche, selon les inquiétudes soulevées concernant certaines benzodiazépines."
+	},
+	{
+		"news_category": "technology",
+		"news_context": "Les utilisateurs en France découvrent les fonctionnalités avancées de l'Ultrahuman Ring Air, qui vont au-delà des attentes pour une expérience technologique exceptionnelle.",
+		"question": "quelles sont les fonctionnalités clés de la bague connectée Ultrahuman Ring Air en France?",
+		"response": "Les fonctionnalités clés de la bague connectée Ultrahuman Ring Air en France vont au-delà des attentes pour une expérience technologique exceptionnelle."
+	},
+	{
+		"news_category": "politics",
+		"news_context": "À Bordeaux. Les responsables politiques discutent des stratégies visant à réduire la dépendance aux énergies fossiles et à favoriser les énergies renouvelables.",
+		"question": "quels sont les plans du gouvernement français pour réduire la dépendance aux énergies fossiles au profit des énergies renouvelables?",
+		"response": "Le gouvernement français a mis en place plusieurs plans pour réduire la dépendance aux énergies fossiles au profit des énergies renouvelables. Parmi ces plans, on peut citer le développement de l'énergie éolienne offshore, l'augmentation de la production d'énergie solaire, la promotion de l'efficacité énergétique dans les bâtiments et le soutien à la recherche et à l'innovation dans le"
+	},
+	{
+		"news_category": "business",
+		"news_context": "La réforme de Pôle emploi, rebaptisé France Travail, s'accompagne de mesures spécifiques visant à mieux accompagner les demandeurs d'emploi en France dans leur recherche de travail.",
+		"question": "quelles sont les mesures d'accompagnement mises en place avec la réforme de France Travail au Pôle emploi en France?",
+		"response": "Les mesures d'accompagnement mises en place avec la réforme de France Travail au Pôle emploi en France visent à mieux accompagner les demandeurs d'emploi dans leur recherche de travail."
+	},
+	{
+		"news_category": "politics",
+		"news_context": "À Grenoble. Les discussions portent sur la création de politiques incitatives pour attirer les investissements privés dans le secteur des énergies renouvelables.",
+		"question": "quelles politiques sont envisagées pour encourager les investissements privés dans le secteur des énergies renouvelables en France?",
+		"response": "Il existe plusieurs politiques envisagées pour encourager les investissements privés dans le secteur des énergies renouvelables en France, notamment à Grenoble. Cela peut inclure des incitations fiscales telles que des réductions d'impôts ou des crédits d'impôt pour les entreprises qui investissent dans les énergies renouvelables. Des subventions et des aides financières peuvent également être mises en place pour sout"
+	},
+	{
+		"news_category": "sports",
+		"news_context": "Les résultats du Mercato en France dessinent de nouvelles perspectives pour les équipes, avec des investissements significatifs, comme la transaction de 40M€ réalisée par le PSG.",
+		"question": "quelles sont les perspectives des équipes françaises suite aux résultats du Mercato?",
+		"response": "Les équipes françaises ont de nouvelles perspectives suite aux résultats du Mercato, avec des investissements significatifs, comme la transaction de 40M€ réalisée par le PSG."
+	},
+	{
+		"news_category": "business",
+		"news_context": "La réforme de Pôle emploi, devenu France Travail au 1er janvier, entraîne d'importantes modifications dans le fonctionnement de l'organisme en France.",
+		"question": "quelles sont les principales modifications apportées par la réforme de France Travail au Pôle emploi en France?",
+		"response": "La réforme de France Travail au Pôle emploi en France entraîne d'importantes modifications dans le fonctionnement de l'organisme."
 	},
 	{
 		"news_category": "world",
@@ -427,33 +301,33 @@
 	},
 	{
 		"news_category": "world",
-		"news_context": "La situation dans le conflit israélo-palestinien, exacerbée par l'État hébreu poussant l'Autorité palestinienne à la faillite, influence les relations diplomatiques entre la France et les parties impliquées, générant des ajustements et des réponses politiques.",
-		"question": "quel impact la situation dans le conflit israélo-palestinien a-t-elle sur les relations diplomatiques entre la France et les parties impliquées?",
-		"response": "La situation dans le conflit israélo-palestinien a un impact sur les relations diplomatiques entre la France et les parties impliquées, entraînant des ajustements et des réponses politiques."
+		"news_context": "Les récentes actions de l'État hébreu, poussant l'Autorité palestinienne à la faillite, soulèvent des questions sur les perspectives de résolution du conflit israélo-palestinien, générant des discussions en France.",
+		"question": "quelles sont les perspectives de résolution du conflit israélo-palestinien à la lumière des récentes actions de l'État hébreu?",
+		"response": "Il est difficile de prédire les perspectives de résolution du conflit israélo-palestinien à la lumière des récentes actions de l'État hébreu. Cependant, les actions qui ont poussé l'Autorité palestinienne à la faillite soulèvent des questions sur la volonté d'Israël de parvenir à une résolution pacifique. Les discussions en France et dans d'autres pays peuvent contribuer"
 	},
 	{
-		"news_category": "world",
-		"news_context": "Les événements récents du conflit israélo-palestinien, avec l'État hébreu poussant l'Autorité palestinienne à la faillite, suscitent des réactions et des initiatives des organisations de défense des droits de l'homme en France.",
-		"question": "comment les organisations de défense des droits de l'homme en France réagissent-elles aux événements récents du conflit israélo-palestinien?",
-		"response": "Les organisations de défense des droits de l'homme en France réagissent aux événements récents du conflit israélo-palestinien en exprimant leur préoccupation et en appelant à la protection des droits des Palestiniens."
-	},
-	{
-		"news_category": "health",
-		"news_context": "À partir du 1ᵉʳ janvier 2024, un arrêt maladie sans jour de carence est instauré en France pour les femmes victimes de fausse couche, modifiant les implications pour leur prise en charge médicale et professionnelle.",
-		"question": "quelles sont les implications de l'arrêt maladie sans jour de carence pour les femmes victimes de fausse couche en France?",
-		"response": "L'arrêt maladie sans jour de carence pour les femmes victimes de fausse couche en France à partir de janvier 2024 permettra une prise en charge médicale et professionnelle plus favorable pour ces femmes. Elles pourront bénéficier d'un arrêt maladie immédiat sans avoir à attendre un délai de carence, ce qui leur permettra de prendre le temps nécessaire pour se remettre physiquement et é"
+		"news_category": "sports",
+		"news_context": "Les équipes de football en France font des transactions importantes, le PSG en particulier réalisant un transfert majeur de 40M€.",
+		"question": "quels sont les transferts les plus coûteux lors du Mercato en France cette saison?",
+		"response": "Le transfert le plus coûteux lors du Mercato en France cette saison est celui du PSG pour 40M€."
 	},
 	{
 		"news_category": "health",
-		"news_context": "L'instauration de l'arrêt maladie sans jour de carence à partir du 1ᵉʳ janvier 2024 vise à améliorer la reconnaissance sociale des femmes victimes de fausse couche en France en facilitant leur période de convalescence.",
-		"question": "comment cette nouvelle mesure affecte-t-elle la reconnaissance sociale des femmes victimes de fausse couche en France?",
-		"response": "L'instauration de l'arrêt maladie sans jour de carence à partir du 1ᵉʳ janvier 2024 vise à améliorer la reconnaissance sociale des femmes victimes de fausse couche en France en facilitant leur période de convalescence."
+		"news_context": "Les critères médicaux définissant l'admissibilité à l'arrêt maladie sans jour de carence pour fausse couche en France sont précisés, assurant une application équitable de la mesure à partir du 1ᵉʳ janvier 2024.",
+		"question": "quels sont les critères médicaux qui définissent l'admissibilité à l'arrêt maladie sans jour de carence pour fausse couche en France?",
+		"response": "Les critères médicaux définissant l'admissibilité à l'arrêt maladie sans jour de carence pour fausse couche en France ne sont pas précisés dans le contexte donné."
 	},
 	{
-		"news_category": "health",
-		"news_context": "Les organisations féministes en France réagissent à la nouvelle mesure d'arrêt maladie sans jour de carence pour les femmes victimes de fausse couche à partir du 1ᵉʳ janvier 2024, soulignant ses aspects positifs et ses possibles limites.",
-		"question": "quelles sont les réactions des organisations féministes françaises face à cette évolution en matière de congé maladie pour fausse couche?",
-		"response": "Les organisations féministes françaises réagissent positivement à la nouvelle mesure d'arrêt maladie sans jour de carence pour les femmes victimes de fausse couche à partir du 1ᵉʳ janvier 2024, tout en soulignant ses possibles limites."
+		"news_category": "environment",
+		"news_context": "Une secousse sismique est enregistrée dans le sud de la France, suscitant des préoccupations quant à la préparation aux séismes.",
+		"question": "quel est l'impact des tremblements de terre en France?",
+		"response": "En France, les tremblements de terre ont un impact limité en raison de la faible activité sismique du pays. Cependant, une secousse sismique récente dans le sud de la France a soulevé des préoccupations quant à la préparation aux séismes."
+	},
+	{
+		"news_category": "science",
+		"news_context": "Les risques de fausse couche associés à certains somnifères soulèvent des questions sur les implications légales pour les fabricants en France, suscitant des débats sur la réglementation.",
+		"question": "Quelles sont les implications légales en France pour les fabricants de somnifères liées aux risques de fausse couche?",
+		"response": "Les implications légales en France pour les fabricants de somnifères liées aux risques de fausse couche sont sujettes à des débats sur la réglementation."
 	},
 	{
 		"news_category": "health",
@@ -462,33 +336,267 @@
 		"response": "Les employeurs en France sont encouragés à soutenir les femmes victimes de fausse couche suite à l'instauration de l'arrêt maladie sans jour de carence à partir du 1ᵉʳ janvier 2024."
 	},
 	{
-		"news_category": "health",
-		"news_context": "On attend que l'arrêt maladie sans jour de carence, entrant en vigueur le 1ᵉʳ janvier 2024, apporte des bénéfices significatifs aux femmes ayant vécu une fausse couche en France, notamment en termes de récupération physique et émotionnelle.",
-		"question": "quels sont les bénéfices attendus de l'arrêt maladie sans jour de carence pour les femmes ayant vécu une fausse couche en France?",
-		"response": "Les bénéfices attendus de l'arrêt maladie sans jour de carence pour les femmes ayant vécu une fausse couche en France sont une meilleure récupération physique et émotionnelle."
+		"news_category": "entertainment",
+		"news_context": "L'anticipation monte parmi le public français avant la première du spectacle 'Denver, le dernier dinosaure' d'Arthur Jugnot et Guillaume Bouchède au théâtre de la Renaissance, avec des attentes élevées et des espoirs de divertissement exceptionnel.",
+		"question": "quelles sont les attentes du public avant la première du spectacle 'Denver, le dernier dinosaure' d'Arthur Jugnot et Guillaume Bouchède en France?",
+		"response": "Le public français attend un divertissement exceptionnel de la première du spectacle 'Denver, le dernier dinosaure' d'Arthur Jugnot et Guillaume Bouchède au théâtre de la Renaissance."
+	},
+	{
+		"news_category": "top",
+		"news_context": "La fin des imams 'détachés' pourrait avoir des impacts sur la diversité culturelle et religieuse dans la formation des nouveaux imams en France, suscitant des discussions sur l'inclusion.",
+		"question": "quels sont les impacts prévus sur la diversité culturelle et religieuse dans la formation des nouveaux imams en France?",
+		"response": "La fin des imams 'détachés' en France pourrait avoir un impact sur la diversité culturelle et religieuse dans la formation des nouveaux imams. Cela suscite des discussions sur l'inclusion et la nécessité de former des imams qui reflètent la diversité de la société française."
+	},
+	{
+		"news_category": "entertainment",
+		"news_context": "Les influences artistiques et créatives qui ont façonné le spectacle 'Denver, le dernier dinosaure' d'Arthur Jugnot et Guillaume Bouchède au théâtre de la Renaissance en France sont examinées par les critiques et les amateurs de théâtre.",
+		"question": "quelles sont les influences créatives derrière le spectacle 'Denver, le dernier dinosaure' d'Arthur Jugnot et Guillaume Bouchède en France?",
+		"response": "Les influences créatives derrière le spectacle 'Denver, le dernier dinosaure' d'Arthur Jugnot et Guillaume Bouchède en France ne sont pas mentionnées dans le contexte donné."
+	},
+	{
+		"news_category": "sports",
+		"news_context": "Les entraîneurs en France évaluent la performance de leurs équipes après le Mercato, tenant compte des transactions majeures, comme celle de 40M€ réalisée par le PSG.",
+		"question": "comment les entraîneurs évaluent-ils la performance des équipes après le Mercato en France?",
+		"response": "Les entraîneurs évaluent la performance des équipes après le Mercato en France en prenant en compte les transactions majeures, comme celle de 40M€ réalisée par le PSG."
+	},
+	{
+		"news_category": "technology",
+		"news_context": "L'Ultrahuman Ring Air s'intègre de plus en plus dans la vie quotidienne des Français, offrant une expérience technologique novatrice axée sur la santé.",
+		"question": "comment l'Ultrahuman Ring Air est-elle intégrée dans la vie quotidienne des Français?",
+		"response": "L'Ultrahuman Ring Air est de plus en plus intégrée dans la vie quotidienne des Français, offrant une expérience technologique novatrice axée sur la santé."
+	},
+	{
+		"news_category": "entertainment",
+		"news_context": "L'impact du spectacle 'Denver, le dernier dinosaure' d'Arthur Jugnot et Guillaume Bouchède sur la scène théâtrale contemporaine en France est discuté, soulignant son rôle dans la diversité et l'innovation artistique.",
+		"question": "comment le spectacle 'Denver, le dernier dinosaure' d'Arthur Jugnot et Guillaume Bouchède contribue-t-il à la scène théâtrale contemporaine en France?",
+		"response": "Le spectacle 'Denver, le dernier dinosaure' d'Arthur Jugnot et Guillaume Bouchède contribue à la scène théâtrale contemporaine en France en apportant de la diversité et de l'innovation artistique."
+	},
+	{
+		"news_category": "technology",
+		"news_context": "Les consommateurs en France ont des attentes élevées à l'égard de l'Ultrahuman Ring Air, anticipant des avantages significatifs pour leur bien-être et leur santé.",
+		"question": "quelles sont les attentes des consommateurs français à l'égard de l'Ultrahuman Ring Air?",
+		"response": "Les consommateurs français attendent des avantages significatifs pour leur bien-être et leur santé de l'Ultrahuman Ring Air."
+	},
+	{
+		"news_category": "technology",
+		"news_context": "Les autorités réglementaires en France examinent de près l'Ultrahuman Ring Air pour s'assurer de sa conformité aux normes de sécurité et de protection des données.",
+		"question": "comment les autorités réglementaires en France réagissent-elles à l'émergence de la bague connectée Ultrahuman Ring Air?",
+		"response": "Les autorités réglementaires en France examinent attentivement l'Ultrahuman Ring Air pour vérifier sa conformité aux normes de sécurité et de protection des données."
+	},
+	{
+		"news_category": "science",
+		"news_context": "La société de biotechnologie NeuroInnovate a racheté le laboratoire de neurosciences de Strasbourg, soulignant son engagement envers la recherche de pointe dans le domaine des sciences du cerveau.",
+		"question": "Pourquoi la société de biotechnologie NeuroInnovate a racheté le laboratoire de neurosciences de Strasbourg?",
+		"response": "La société de biotechnologie NeuroInnovate a racheté le laboratoire de neurosciences de Strasbourg pour renforcer son engagement envers la recherche de pointe dans le domaine des sciences du cerveau."
+	},
+	{
+		"news_category": "top",
+		"news_context": "La fin du programme des imams 'détachés' suscite des réactions diverses au sein des communautés religieuses en France, avec des discussions sur son impact et ses implications.",
+		"question": "comment les communautés religieuses réagissent-elles à la cessation du programme des imams 'détachés' en France?",
+		"response": "Les communautés religieuses en France réagissent de manière diverse à la cessation du programme des imams 'détachés'. Certaines communautés voient cela comme une opportunité de renforcer l'autonomie et l'indépendance des imams français, tandis que d'autres expriment des inquiétudes quant à la capacité de former suffisamment d'imams locaux qualifiés. Les discussions se concentrent sur l'"
+	},
+	{
+		"news_category": "environment",
+		"news_context": "Des variations climatiques influent sur les rendements agricoles, suscitant des préoccupations quant à la sécurité alimentaire.",
+		"question": "comment les changements climatiques affectent-ils l'agriculture en France?",
+		"response": "Les changements climatiques en France affectent l'agriculture en entraînant des variations climatiques qui influent sur les rendements agricoles. Cela suscite des préoccupations quant à la sécurité alimentaire."
+	},
+	{
+		"news_category": "science",
+		"news_context": "L'entreprise SpaceTech Solutions a pris le contrôle de l'observatoire astronomique de Nice, marquant une nouvelle ère de partenariat public-privé dans le domaine de l'astronomie.",
+		"question": "Quels sont les enjeux de la prise de contrôle de l'observatoire astronomique de Nice par l'entreprise SpaceTech Solutions?",
+		"response": "Les enjeux de la prise de contrôle de l'observatoire astronomique de Nice par l'entreprise SpaceTech Solutions sont de créer un partenariat public-privé dans le domaine de l'astronomie et d'ouvrir de nouvelles opportunités de financement et de développement technologique pour l'observatoire."
+	},
+	{
+		"news_category": "top",
+		"news_context": "Suite à la fin du programme des imams 'détachés', de nouvelles directives sont établies pour la formation des imams en France, visant à garantir une approche plus locale et intégrée.",
+		"question": "quelles nouvelles directives sont mises en place pour la formation des imams suite à la fin du programme des imams 'détachés'?",
+		"response": "Les nouvelles directives mises en place pour la formation des imams suite à la fin du programme des imams 'détachés' visent à garantir une approche plus locale et intégrée."
+	},
+	{
+		"news_category": "entertainment",
+		"news_context": "Le nouveau spectacle 'Denver, le dernier dinosaure' d'Arthur Jugnot et Guillaume Bouchède au théâtre de la Renaissance suscite des critiques et des réactions variées en France.",
+		"question": "quelles sont les critiques du nouveau spectacle d'Arthur Jugnot et Guillaume Bouchède au théâtre de la Renaissance en France?",
+		"response": "Les critiques du nouveau spectacle 'Denver, le dernier dinosaure' d'Arthur Jugnot et Guillaume Bouchède au théâtre de la Renaissance en France sont variées."
+	},
+	{
+		"news_category": "science",
+		"news_context": "L'Institut national de la recherche scientifique a récemment investi dans le laboratoire de physique nucléaire de Paris pour renforcer la collaboration entre les chercheurs français et canadiens dans le domaine de la physique des particules.",
+		"question": "Quels sont les objectifs de la collaboration entre les chercheurs français et canadiens dans le domaine de la physique des particules?",
+		"response": "Les objectifs de la collaboration entre les chercheurs français et canadiens dans le domaine de la physique des particules sont de renforcer les échanges scientifiques et de favoriser les avancées dans la recherche en physique nucléaire."
+	},
+	{
+		"news_category": "technology",
+		"news_context": "L'Ultrahuman Ring Air se distingue des autres inventions technologiques en France en offrant des fonctionnalités uniques et des conseils de santé brillants.",
+		"question": "quels sont les avantages de l'Ultrahuman Ring Air par rapport aux autres inventions technologiques en France?",
+		"response": "L'Ultrahuman Ring Air se distingue des autres inventions technologiques en France grâce à ses fonctionnalités uniques et à ses conseils de santé brillants."
+	},
+	{
+		"news_category": "science",
+		"news_context": "L'Organisation européenne de recherche en informatique a acquis le laboratoire de recherche en informatique de Rennes, renforçant ainsi la collaboration internationale dans le domaine de l'informatique et de la technologie de l'information.",
+		"question": "Quels sont les enjeux de l'acquisition du laboratoire de recherche en informatique de Rennes par l'Organisation européenne de recherche en informatique?",
+		"response": "Les enjeux de l'acquisition du laboratoire de recherche en informatique de Rennes par l'Organisation européenne de recherche en informatique sont de renforcer la collaboration internationale dans le domaine de l'informatique et de la technologie de l'information."
+	},
+	{
+		"news_category": "sports",
+		"news_context": "Le Mercato en France réserve parfois des surprises, avec des retournements inattendus dans les transactions, dont celle de 40M€ impliquant le PSG.",
+		"question": "y a-t-il des surprises ou des retournements inattendus lors du Mercato en France?",
+		"response": "Oui, il peut y avoir des surprises ou des retournements inattendus lors du Mercato en France, notamment avec des transactions impliquant le PSG pour un montant de 40M€."
+	},
+	{
+		"news_category": "world",
+		"news_context": "L'État hébreu intensifie les tensions en poussant l'Autorité palestinienne à la faillite, suscitant des réactions variées des leaders politiques français face à l'escalade du conflit Israël-Hamas.",
+		"question": "quelles sont les réactions des leaders politiques français face à l'escalade récente du conflit Israël-Hamas?",
+		"response": "Les réactions des leaders politiques français face à l'escalade récente du conflit Israël-Hamas sont variées."
+	},
+	{
+		"news_category": "world",
+		"news_context": "Les événements récents du conflit israélo-palestinien, avec l'État hébreu poussant l'Autorité palestinienne à la faillite, suscitent des réactions et des initiatives des organisations de défense des droits de l'homme en France.",
+		"question": "comment les organisations de défense des droits de l'homme en France réagissent-elles aux événements récents du conflit israélo-palestinien?",
+		"response": "Les organisations de défense des droits de l'homme en France réagissent aux événements récents du conflit israélo-palestinien en exprimant leur préoccupation et en appelant à la protection des droits des Palestiniens."
+	},
+	{
+		"news_category": "entertainment",
+		"news_context": "Les critiques de théâtre en France évaluent la performance d'Arthur Jugnot et Guillaume Bouchède dans 'Denver, le dernier dinosaure', offrant des analyses détaillées de leurs compétences artistiques.",
+		"question": "comment la presse française évalue-t-elle la performance d'Arthur Jugnot et Guillaume Bouchède dans 'Denver, le dernier dinosaure'?",
+		"response": "Il n'y a pas suffisamment d'informations dans le contexte donné pour répondre à la question."
+	},
+	{
+		"news_category": "technology",
+		"news_context": "Test de l'Ultrahuman Ring Air : une bague connectée aux conseils de santé brillants.",
+		"question": "quelle est la dernière invention technologique en France?",
+		"response": "La dernière invention technologique en France est l'Ultrahuman Ring Air, une bague connectée aux conseils de santé brillants."
+	},
+	{
+		"news_category": "business",
+		"news_context": "France Travail, anciennement Pôle emploi, lance de nouvelles initiatives visant à stimuler l'emploi en France, introduisant des programmes et des incitations pour les employeurs et les chercheurs d'emploi.",
+		"question": "quelles sont les nouvelles initiatives mises en place par France Travail pour favoriser l'emploi en France?",
+		"response": "France Travail a lancé de nouvelles initiatives pour favoriser l'emploi en France, telles que des programmes et des incitations pour les employeurs et les chercheurs d'emploi."
 	},
 	{
 		"news_category": "health",
-		"news_context": "En parallèle de l'arrêt maladie sans jour de carence, des dispositifs complémentaires sont envisagés en France pour accompagner les femmes après une fausse couche, soulignant une approche globale de prise en charge.",
-		"question": "existe-t-il des dispositifs complémentaires pour accompagner les femmes après une fausse couche en France?",
-		"response": "Oui, des dispositifs complémentaires sont envisagés en France pour accompagner les femmes après une fausse couche, soulignant une approche globale de prise en charge."
+		"news_context": "Les organisations féministes en France réagissent à la nouvelle mesure d'arrêt maladie sans jour de carence pour les femmes victimes de fausse couche à partir du 1ᵉʳ janvier 2024, soulignant ses aspects positifs et ses possibles limites.",
+		"question": "quelles sont les réactions des organisations féministes françaises face à cette évolution en matière de congé maladie pour fausse couche?",
+		"response": "Les organisations féministes françaises réagissent positivement à la nouvelle mesure d'arrêt maladie sans jour de carence pour les femmes victimes de fausse couche à partir du 1ᵉʳ janvier 2024, tout en soulignant ses possibles limites."
+	},
+	{
+		"news_category": "sports",
+		"news_context": "Le Mercato en France met en lumière de jeunes talents qui attirent l'attention des clubs, ajoutant une dimension excitante aux transactions, dont celle de 40M€ impliquant le PSG.",
+		"question": "quels sont les jeunes talents qui ont attiré l'attention des clubs pendant le Mercato en France?",
+		"response": "Il y a eu plusieurs jeunes talents qui ont attiré l'attention des clubs pendant le Mercato en France, mais aucun nom spécifique n'est mentionné dans le contexte."
+	},
+	{
+		"news_category": "entertainment",
+		"news_context": "Le public français découvre des éléments novateurs et surprenants dans le spectacle 'Denver, le dernier dinosaure' d'Arthur Jugnot et Guillaume Bouchède, générant un enthousiasme particulier au sein de la communauté artistique.",
+		"question": "y a-t-il des éléments novateurs ou surprenants dans le spectacle 'Denver, le dernier dinosaure' d'Arthur Jugnot et Guillaume Bouchède en France?",
+		"response": "Oui, le spectacle 'Denver, le dernier dinosaure' d'Arthur Jugnot et Guillaume Bouchède présente des éléments novateurs et surprenants qui suscitent un enthousiasme particulier au sein de la communauté artistique en France."
+	},
+	{
+		"news_category": "science",
+		"news_context": "La société de produits chimiques FineChem a acquis le laboratoire de recherche en chimie organique de Lyon, renforçant ainsi sa position en tant que leader dans le domaine de la recherche et du développement de nouvelles molécules organiques.",
+		"question": "Je souhaiterais avoir des informations sur l'acquisition du laboratoire de recherche en chimie organique de Lyon par la société de produits chimiques FineChem.",
+		"response": "FineChem a acquis le laboratoire de recherche en chimie organique de Lyon pour renforcer sa position en tant que leader dans la recherche et le développement de nouvelles molécules organiques."
+	},
+	{
+		"news_category": "environment",
+		"news_context": "Une marée noire menace la faune marine le long des côtes françaises, nécessitant des opérations de nettoyage d'urgence.",
+		"question": "quelles sont les conséquences des marées noires sur les côtes françaises?",
+		"response": "Les conséquences des marées noires sur les côtes françaises sont la menace pour la faune marine et la nécessité d'opérations de nettoyage d'urgence."
+	},
+	{
+		"news_category": "business",
+		"news_context": "Les services aux entreprises en France sont touchés par la réforme de Pôle emploi devenu France Travail, avec des ajustements dans les procédures de recrutement et de placement de personnel.",
+		"question": "comment la réforme de France Travail impacte-t-elle les services aux entreprises en France?",
+		"response": "La réforme de France Travail impacte les services aux entreprises en France en apportant des ajustements dans les procédures de recrutement et de placement de personnel."
+	},
+	{
+		"news_category": "environment",
+		"news_context": "Des vagues de chaleur exceptionnelles frappent le pays, entraînant des mesures d'urgence pour protéger la population.",
+		"question": "comment la France fait-elle face aux changements climatiques?",
+		"response": "La France fait face aux changements climatiques en prenant des mesures d'urgence pour protéger la population des vagues de chaleur exceptionnelles qui frappent le pays."
+	},
+	{
+		"news_category": "environment",
+		"news_context": "Des inondations touchent plusieurs régions françaises, causant des dégâts matériels importants.",
+		"question": "quel est le bilan des catastrophes naturelles en France?",
+		"response": "Le bilan des catastrophes naturelles en France est marqué par des inondations récentes qui ont touché plusieurs régions du pays, causant d'importants dégâts matériels."
+	},
+	{
+		"news_category": "science",
+		"news_context": "Le groupe pharmaceutique GenoBio a récemment acquis le centre de recherche en génétique de Toulouse, consolidant sa présence dans le secteur de la recherche génétique et des thérapies géniques.",
+		"question": "Quelles sont les ambitions du groupe pharmaceutique GenoBio en acquerant le centre de recherche en génétique de Toulouse?",
+		"response": "Les ambitions du groupe pharmaceutique GenoBio en acquérant le centre de recherche en génétique de Toulouse sont de renforcer sa présence dans le secteur de la recherche génétique et des thérapies géniques."
+	},
+	{
+		"news_category": "sports",
+		"news_context": "La période de transferts en France suscite des réactions passionnées parmi les supporters, en particulier avec la transaction de 40M€ réalisée par le PSG.",
+		"question": "comment les supporters réagissent-ils aux résultats du Mercato en France?",
+		"response": "Les supporters réagissent de manière passionnée aux résultats du Mercato en France, en particulier à la transaction de 40M€ réalisée par le PSG."
+	},
+	{
+		"news_category": "top",
+		"news_context": "La fin du programme des imams 'détachés' est accompagnée d'initiatives visant à renforcer l'intégration des imams dans la société française, favorisant un dialogue interculturel plus étroit.",
+		"question": "comment la fin du programme des imams 'détachés' vise-t-elle à renforcer l'intégration des imams dans la société française?",
+		"response": "La fin du programme des imams 'détachés' vise à renforcer l'intégration des imams dans la société française en favorisant un dialogue interculturel plus étroit."
+	},
+	{
+		"news_category": "technology",
+		"news_context": "Les utilisateurs en France expérimentent la révolution technologique de la bague connectée Ultrahuman Ring Air, qui fournit des conseils de santé innovants.",
+		"question": "comment la bague connectée Ultrahuman Ring Air révolutionne-t-elle la santé en France?",
+		"response": "La bague connectée Ultrahuman Ring Air révolutionne la santé en France en fournissant des conseils de santé innovants aux utilisateurs."
+	},
+	{
+		"news_category": "politics",
+		"news_context": "À Lille. Les responsables politiques explorent des stratégies pour favoriser la transition énergétique.",
+		"question": "comment le gouvernement envisage-t-il de stimuler la transition vers les énergies renouvelables en France?",
+		"response": "Le gouvernement envisage de stimuler la transition vers les énergies renouvelables en France en mettant en place des stratégies favorables à la transition énergétique à Lille."
+	},
+	{
+		"news_category": "sports",
+		"news_context": "Mercato - PSG : Pour 40M€, Paris tire le gros lot.",
+		"question": "quelles sont les dernières acquisitions lors du Mercato en France?",
+		"response": "Le PSG a réalisé une acquisition pour 40M€ lors du Mercato en France."
+	},
+	{
+		"news_category": "business",
+		"news_context": "Les demandeurs d'emploi en France voient leur situation influencée par la réforme de Pôle emploi, rebaptisé France Travail, avec des changements notables dans les services et les procédures.",
+		"question": "comment la réforme de France Travail impacte-t-elle les demandeurs d'emploi en France?",
+		"response": "La réforme de France Travail impacte les demandeurs d'emploi en France en apportant des changements notables dans les services et les procédures de Pôle emploi."
+	},
+	{
+		"news_category": "top",
+		"news_context": "La fin des imams 'détachés' suscite des changements significatifs dans la formation des nouveaux imams en France, modifiant les procédures et les exigences.",
+		"question": "comment la fin des imams 'détachés' va-t-elle influencer la formation des nouveaux imams en France?",
+		"response": "La fin des imams 'détachés' en France va probablement influencer la formation des nouveaux imams en modifiant les procédures et les exigences."
+	},
+	{
+		"news_category": "world",
+		"news_context": "L'État hébreu pousse l'Autorité palestinienne à la faillite, suscitant des préoccupations quant aux impacts humanitaires de la guerre Israël-Hamas sur la population palestinienne en France.",
+		"question": "quels sont les impacts humanitaires de la guerre Israël-Hamas sur la population palestinienne?",
+		"response": "Les impacts humanitaires de la guerre Israël-Hamas sur la population palestinienne en France sont préoccupants, notamment en ce qui concerne la faillite de l'Autorité palestinienne."
+	},
+	{
+		"news_category": "world",
+		"news_context": "La guerre Israël-Hamas, avec les actions de l'État hébreu contre l'Autorité palestinienne, suscite diverses perceptions parmi les citoyens français quant aux événements actuels dans le conflit israélo-palestinien.",
+		"question": "comment les citoyens français perçoivent-ils les événements actuels dans le conflit israélo-palestinien?",
+		"response": "Il est difficile de donner une réponse précise sur la perception des citoyens français quant aux événements actuels dans le conflit israélo-palestinien sans avoir accès à des sondages ou des études d'opinion spécifiques. Cependant, il est probable que les opinions soient diverses et variées, reflétant les différentes sensibilités politiques, religieuses et culturelles présentes en France. Certains cit"
+	},
+	{
+		"news_category": "politics",
+		"news_context": "À Strasbourg. Les élus locaux débattent des actions à entreprendre pour promouvoir activement les énergies renouvelables dans leurs régions respectives.",
+		"question": "comment les élus locaux s'engagent-ils à promouvoir les énergies renouvelables dans leurs régions respectives en France?",
+		"response": "Les élus locaux à Strasbourg débattent des actions à entreprendre pour promouvoir activement les énergies renouvelables dans leurs régions respectives."
+	},
+	{
+		"news_category": "politics",
+		"news_context": "À Nice. Les discussions portent sur la manière de renforcer l'indépendance énergétique en favorisant les énergies renouvelables.",
+		"question": "comment les politiciens français abordent-ils la question de l'indépendance énergétique à travers les énergies renouvelables?",
+		"response": "Les politiciens français abordent la question de l'indépendance énergétique en favorisant les énergies renouvelables lors des discussions à Nice."
 	},
 	{
 		"news_category": "health",
-		"news_context": "La formation des professionnels de la santé en France intègre des modules spécifiques pour améliorer le soutien aux femmes victimes de fausse couche, en tenant compte de la nouvelle disposition d'arrêt maladie sans jour de carence à partir du 1ᵉʳ janvier 2024.",
-		"question": "comment les professionnels de la santé en France sont-ils formés pour mieux soutenir les femmes victimes de fausse couche?",
-		"response": "La formation des professionnels de la santé en France intègre des modules spécifiques pour améliorer le soutien aux femmes victimes de fausse couche."
-	},
-	{
-		"news_category": "health",
-		"news_context": "Les compagnies d'assurance en France ajustent leurs politiques pour tenir compte de l'arrêt maladie sans jour de carence pour fausse couche à partir du 1ᵉʳ janvier 2024, reflétant l'impact de cette mesure sur les couvertures médicales des femmes concernées.",
-		"question": "comment les assurances en France réagissent-elles à cette évolution en matière de congé maladie pour fausse couche?",
-		"response": "Les compagnies d'assurance en France ajustent leurs politiques pour tenir compte de l'arrêt maladie sans jour de carence pour fausse couche à partir du 1ᵉʳ janvier 2024."
-	},
-	{
-		"news_category": "health",
-		"news_context": "L'État français évalue les implications financières de l'instauration de l'arrêt maladie sans jour de carence pour fausse couche, considérant les coûts potentiels et les avantages sociaux de cette mesure à partir du 1ᵉʳ janvier 2024.",
-		"question": "quelles sont les implications financières pour l'État français liées à l'instauration de l'arrêt maladie sans jour de carence pour fausse couche?",
-		"response": "Les implications financières pour l'État français liées à l'instauration de l'arrêt maladie sans jour de carence pour fausse couche ne sont pas précisées dans le contexte donné."
+		"news_context": "L'instauration de l'arrêt maladie sans jour de carence à partir du 1ᵉʳ janvier 2024 vise à améliorer la reconnaissance sociale des femmes victimes de fausse couche en France en facilitant leur période de convalescence.",
+		"question": "comment cette nouvelle mesure affecte-t-elle la reconnaissance sociale des femmes victimes de fausse couche en France?",
+		"response": "L'instauration de l'arrêt maladie sans jour de carence à partir du 1ᵉʳ janvier 2024 vise à améliorer la reconnaissance sociale des femmes victimes de fausse couche en France en facilitant leur période de convalescence."
 	}
 ]
