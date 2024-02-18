@@ -22,7 +22,7 @@ except KeyError:
 
 logger = logging.getLogger(name=__name__)
 
-class InferenceApi:
+class InferenceAPI:
     """
     Une classe effectuant l'inférence en utilisant un modèle LLM pré-entrainé.
     Args:
@@ -204,7 +204,7 @@ class InferenceApi:
             if should_save_output:
                 promt_and_answers.append(
                     {
-                        "promt":sample["prompt"],
+                        "prompt":sample["prompt"],
                         "answer":answer
                     }
                 )

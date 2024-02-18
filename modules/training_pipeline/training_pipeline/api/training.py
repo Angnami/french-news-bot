@@ -85,7 +85,7 @@ class BestModelToModelRegistryCallback(TrainerCallback):
         logger.info(msg=f"Fin de l'enregistrement du checkpoint du modèle @ {self.model_name}")
 
 
-class TrainingApi:
+class TrainingAPI:
     """
     Une classe pour l'entrainement d'un modèle QLora.
     Args:

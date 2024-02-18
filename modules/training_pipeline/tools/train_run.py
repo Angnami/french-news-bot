@@ -55,7 +55,7 @@ def train(
     initialize(logging_config_path=logging_config_path, env_file_path=env_file_path)
     
     from training_pipeline import utils
-    from training_pipeline.api import TrainingAPI
+    from training_pipeline.api.training import TrainingAPI
     
     logger = logging.getLogger(__name__)
     

@@ -49,7 +49,7 @@ def infer(
     initialize(logging_config_path=logging_config_path, env_file_path=env_file_path)
 
     from training_pipeline import utils
-    from training_pipeline.api import InferenceAPI
+    from training_pipeline.api.inference import InferenceAPI
     
     logger = logging.getLogger(__name__)
 
