@@ -1,4 +1,4 @@
-.PHONY: init env-variables download embed training-data-responses-only training-data-questions-only training-data-q-and-a
+.PHONY: init env-variables download embed training-data-responses-only training-data-questions-only training-data-q-and-a split-and-shuffle
 
 # Installer poetry et les dépendances
 init:
@@ -35,3 +35,8 @@ training-data-questions-only:
 training-data-q-and-a:
 	@echo "Générer des questions et avec leurs réponses..."
 	poetry run python scripts/generate_training_data.py --only-q=false --only-a=false --q-and-a=true --new-examples-per-category=$(new_examples_per_category)
+
+# Diviser les données entre l'entrainement et l'évaluation et mélanger les résultats
+split-and-shuffle:
+	@echo "Répartir et mélanger les données ..."
+	poetry run python scripts/train_test_split_and_shuffle.py --test-samples-per-category=$(test_samples_per_category)
