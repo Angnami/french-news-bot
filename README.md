@@ -13,10 +13,9 @@
     - [2.3 Feature pipeline](#23-Feature-pipeline)
     - [2.4 News bot](#24-News-bot)
 - [3. Configuration des services externes](#3-Configuration-des-services-externes)
-    - [3.1. Alpaca](#31-alpaca)
-    - [3.2. Qdrant](#32-qdrant)
-    - [3.3. Comet ML](#33-comet-ml)
-    - [3.4. Beam](#34-beam)
+    - [3.1. Qdrant](#31-qdrant)
+    - [3.2. Comet ML](#32-comet-ml)
+    - [3.3. Beam](#33-beam)
 - [4. Installation et utilisation](#4-installation-et-utilisation)
 
 -------------------------
