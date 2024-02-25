@@ -2,8 +2,9 @@ import numpy as np
 from numpy import random
 import json
 import argparse
+from pathlib import Path
 
-
+DATASET_DIR = ''
 def parseargs()->argparse.Namespace:
     """
     Analyse les arguments de la ligne de commande pour la répartition et le mélange des données.
@@ -26,7 +27,7 @@ def parseargs()->argparse.Namespace:
 args = parseargs()
 test_samples_per_category = args.test_samples_per_category
 # Load the data to split
-with open('/home/angnami/french-news-bot/modules/q_and_a_data_generator/data/training_data.json', 'r') as f:
+with open('./data/training_data.json', 'r') as f:
     data = json.load(f)
     
 
@@ -49,8 +50,8 @@ train_data = train_data.tolist()
 test_data = test_data.tolist()
 
 # Save the training and testing data
-with open('/home/angnami/french-news-bot/modules/training_pipeline/dataset/training_data.json','w') as f:
+with open(Path(DATASET_DIR)/'training_data.json','w') as f:
     json.dump(train_data, f)
     
-with open('/home/angnami/french-news-bot/modules/training_pipeline/dataset/testing_data.json','w') as f:
+with open(Path(DATASET_DIR)/'testing_data.json','w') as f:
     json.dump(test_data, f)
