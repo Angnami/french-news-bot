@@ -12,10 +12,10 @@ trainig_app = App(
         cpu=4,
         memory="64Gi",
         gpu='A10G',
-        image=Image(python_version="python3.11",python_packages="requirements.txt")
+        image=Image(python_version="python3.10",python_packages="requirements.txt")
     ),
     volumes=[
-        Volume(name="da_dataset",path="./qa_dataset"),
+        Volume(name="qa_dataset",path="./qa_dataset"),
         Volume(
             name="train_qa_output",
             path="./output",
@@ -79,5 +79,5 @@ def train(
     training_api.train()
     
     
-    if __name__ == "__main__":
-        fire.Fire(train)
+if __name__ == "__main__":
+    fire.Fire(train)
