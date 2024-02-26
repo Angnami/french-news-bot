@@ -132,7 +132,7 @@ class TrainingAPI:
             -root_dataset_dir(Path): le repertoire racine du dataset.
             -model_cache_dir(Path,optional): le repertoire de cache du modèle. La valeur par défaut est None. 
         Returns:
-            - TrainingApi:une instance de TrainingApi.
+            - TrainingAPI:une instance de TrainingAPI.
         """ 
         return cls(
             root_dataset_dir=root_dataset_dir,
