@@ -77,7 +77,7 @@ class NewsDataset:
                     news_context=sample['news_context'],
                     chat_history=sample.get("chat_history",""),
                     question=sample['question'],
-                    answer=sample['answer'],
+                    answer=sample['response'],
                     
                 )
                 for sample in data
