@@ -20,7 +20,7 @@ class TrainingConfig:
     model: Dict[str, Any]
 
     @classmethod
-    def from_yaml(cls, config_path:Path, output_dir:Path)->"TrainingConfig":
+    def from_yaml(cls, config_path: Path, output_dir: Path) -> "TrainingConfig":
         """
         Récupère un fichier de configuration à partir du lien indiqué.
         Args:
@@ -32,13 +32,15 @@ class TrainingConfig:
 
         config = load_yaml(config_path)
         config["training"] = cls._dict_to_training_arguments(
-            training_config = config["training"] , output_dir=output_dir
+            training_config=config["training"], output_dir=output_dir
         )
 
         return cls(**config)
-    
+
     @classmethod
-    def _dict_to_training_arguments(cls, training_config:dict, output_dir:Path)->TrainingArguments:
+    def _dict_to_training_arguments(
+        cls, training_config: dict, output_dir: Path
+    ) -> TrainingArguments:
         """
         Construit un object TrainingArguments à partir d'un dictionnaire de configuration.
         Args:
@@ -50,7 +52,7 @@ class TrainingConfig:
 
         return TrainingArguments(
             output_dir=str(output_dir),
-            logging_dir=str(output_dir /"logs"),
+            logging_dir=str(output_dir / "logs"),
             per_device_train_batch_size=training_config["per_device_train_batch_size"],
             gradient_accumulation_steps=training_config["gradient_accumulation_steps"],
             per_device_eval_batch_size=training_config["per_device_eval_batch_size"],
@@ -68,8 +70,10 @@ class TrainingConfig:
             eval_steps=training_config["eval_steps"],
             report_to=training_config["report_to"],
             seed=training_config["seed"],
-            load_best_model_at_end=training_config["load_best_model_at_end"]
+            load_best_model_at_end=training_config["load_best_model_at_end"],
         )
+
+
 @dataclass
 class InferenceConfig:
     """
@@ -81,13 +85,13 @@ class InferenceConfig:
         - dataset(Dict[str, str]): un dictionnaire contenant la configuration du dataset.
     """
 
-    model:Dict[str, Any]
+    model: Dict[str, Any]
     peft_model: Dict[str, Any]
-    setup:Dict[str, Any]
+    setup: Dict[str, Any]
     dataset: Dict[str, str]
 
     @classmethod
-    def from_yaml(cls, config_path:Path):
+    def from_yaml(cls, config_path: Path):
         """
         Télécharge un fichier de configuration à partir du chemin inidiqué.
         """

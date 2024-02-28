@@ -4,25 +4,25 @@ from beam import App, Image, Runtime, Volume, VolumeType, Output
 from training_pipeline import configs
 
 inference_app = App(
-    name='inference_qa',
+    name="inference_qa",
     runtime=Runtime(
         cpu=4,
-        memory='64Gi',
+        memory="64Gi",
         gpu="A10G",
-        image=Image(python_version="python3.10",python_packages="requirements.txt")
-        ),
+        image=Image(python_version="python3.10", python_packages="requirements.txt"),
+    ),
     volumes=[
-        Volume(name='qa_dataset',
-               path='./qa_dataset'
-               ),
-        Volume(name="model_cache",
-               path="./model_cache",
-               volume_type=VolumeType.Persistent
-               ),
+        Volume(name="qa_dataset", path="./qa_dataset"),
+        Volume(
+            name="model_cache", path="./model_cache", volume_type=VolumeType.Persistent
+        ),
     ],
 )
 
-@inference_app.task_queue(outputs=[Output(Path("output-inference/output-inference-api.json"))])
+
+@inference_app.task_queue(
+    outputs=[Output(Path("output-inference/output-inference-api.json"))]
+)
 def infer(
     config_file: str,
     dataset_dir: str,
@@ -45,12 +45,12 @@ def infer(
 
     from training_pipeline import initialize
 
-     # S'assurer d'initialiser les variables environnementales avant d'importer tout autre module
+    # S'assurer d'initialiser les variables environnementales avant d'importer tout autre module
     initialize(logging_config_path=logging_config_path, env_file_path=env_file_path)
 
     from training_pipeline import utils
     from training_pipeline.api.inference import InferenceAPI
-    
+
     logger = logging.getLogger(__name__)
 
     logger.info("#" * 100)

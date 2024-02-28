@@ -2,7 +2,7 @@ import os
 import logging
 import subprocess
 import psutil
-import torch 
+import torch
 
 
 logger = logging.getLogger(__name__)
@@ -39,7 +39,7 @@ def log_available_ram():
     )
 
 
-def read_requirements(file_path: str) -> list :
+def read_requirements(file_path: str) -> list:
     """
     Cette fonction prend un fichier contenant une liste des dépendances (requirements) et reourne une liste
     extirpée des espaces inutiles.
@@ -48,13 +48,13 @@ def read_requirements(file_path: str) -> list :
     Returns:
         - requirements : Une liste extirpée des caractères inutiles (espaces)
     """
-    with open(file=file_path, mode='r') as file:
+    with open(file=file_path, mode="r") as file:
         requirements = [line.strip() for line in file if line.strip()]
-    
+
     return requirements
 
 
-def log_files_and_subdirs(directory_path:str):
+def log_files_and_subdirs(directory_path: str):
     """
     Cette fonction enregistre tous les fichiers et les sous-repertoires présents dans le repertoire indiqué.
     Args:
