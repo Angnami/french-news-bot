@@ -5,3 +5,8 @@ logs/*
 .ruff_cache/*
 dataset/*
 __pycache__/**
+tests.ipynb
+test.py 
+.venv/*
+.vscode/*
+.ipynb_checkpoints/*
