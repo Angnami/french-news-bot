@@ -36,8 +36,8 @@ upload_dataset_to_beam:
 
 
 # === Training ===
-dev_train_beam: export_requirements
-	@echo "Exécution du pipeline d'entrainement sur Beam en utilisant la configuration de production production .."
+dev_train_beam: 
+	@echo "Exécution du pipeline d'entrainement sur Beam en utilisant la configuration de developpement.."
 	BEAM_IGNORE_IMPORTS_OFF=true beam run ./tools/train_run.py:train -d '{"config_file": "configs/dev_training_config.yaml", "output_dir": "./output", "dataset_dir": "./qa_dataset/dataset", "env_file_path": ".env", "model_cache_dir": "./model_cache"}'
 
 train_beam: export_requirements
