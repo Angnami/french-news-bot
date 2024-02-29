@@ -48,7 +48,7 @@ class NewsDataset:
         self._scope = scope
         self._template = get_llm_template(template)
         self._max_samples = max_samples
-        self._raw_data = load_json(path=data_path)
+        self._raw_data = self.load(data_path=data_path)
 
     def load(self, data_path: Path) -> List[DataSample]:
         """
@@ -103,7 +103,7 @@ class NewsDataset:
             - Dataset: un Dataset HuggingFace.
         """
         data_as_dict = [asdict(sample) for sample in self._raw_data]
-        dataset = Dataset.from_dict(data_as_dict)
+        dataset = Dataset.from_list(data_as_dict)
         if self._scope == Scope.TRAINING:
             template_maping_func = self._template.format_train
         else:

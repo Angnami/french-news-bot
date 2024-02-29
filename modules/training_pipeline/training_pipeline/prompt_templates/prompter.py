@@ -22,6 +22,7 @@ class PromptTemplate:
     system_message: str = ""
     sep: str = "\n"
     eos: str = ""
+    name: str
 
     @property
     def input_variables(self) -> List[str]:
@@ -94,10 +95,10 @@ register_llm_template(
         name="falcon",
         system_template=">>INTRODUCTION<<{system_message}",
         system_message="Vous êtes un assistant très utile, connaissant toutes les actualités de la France.",
-        context_template=">>DOMAINE<<{news_category}:{news_context}",
-        chat_history_template=">>RESUME<<{chat_history}",
-        question_template=">>QUESTION<<{qustion}",
-        answer_template=">>REPONSE<<{answer}",
+        context_template=">>DOMAIN<<{news_category}:{news_context}",
+        chat_history_template=">>SUMMARY<<{chat_history}",
+        question_template=">>QUESTION<<{question}",
+        answer_template=">>ANSWER<<{answer}",
         sep="\n",
         eos="<|findetexte|>",
     )

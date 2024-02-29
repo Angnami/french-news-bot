@@ -172,7 +172,7 @@ class TrainingAPI:
 
         validation_dataset = qa.NewsDataset(
             data_path=self._root_dataset_dir / "testing_data.json",
-            scope=constants.Scope.INFERENCE,
+            scope=constants.Scope.TRAINING,
             template=self._template_name,
         ).to_huggingface()
         logger.info(msg=f"Training dataset size: {len(training_dataset)}")
