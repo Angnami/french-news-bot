@@ -10,3 +10,5 @@ test.py
 .venv/*
 .vscode/*
 .ipynb_checkpoints/*
+.git
+README.md
