@@ -92,7 +92,7 @@ def get_llm_template(name: str) -> PromptTemplate:
 
 register_llm_template(
     PromptTemplate(
-        name="falcon",
+        name="mistral",
         system_template=">>INTRODUCTION<<{system_message}",
         system_message="Vous êtes un assistant très utile, connaissant toutes les actualités de la France.",
         context_template=">>DOMAIN<<{news_category}:{news_context}",

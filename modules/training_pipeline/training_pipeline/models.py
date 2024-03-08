@@ -16,7 +16,7 @@ logger = logging.getLogger(__name__)
 
 
 def build_qlora_model(
-    pretrained_model_name_or_path: str = "tiiuae/falcon-40b",
+    pretrained_model_name_or_path: str = "mistralai/Mistral-7B-Instruct-v0.2",
     peft_pretrained_model_name_or_path: Optional[str] = None,
     gradient_checkpointing: bool = True,
     cache_dir: Optional[Path] = None,
@@ -24,9 +24,9 @@ def build_qlora_model(
     """
     Cette fonction crée un modèle LLM QLora sur la base du nom du modèle de HuggingFace.
     1. Crée et prépare la configuration bitsandbytes pour la quantization de QLora.
-    2. Télécharge, charge et quantize à la volée le modèle "tiiuae/falcon-40b".
+    2. Télécharge, charge et quantize à la volée le modèle "mistralai/Mistral-7B-Instruct-v0.2".
     3. Crée et prépare la configuration Lora.
-    4. Charge et configure le tokenizer de "tiiuae/falcon-40b".
+    4. Charge et configure le tokenizer de "mistralai/Mistral-7B-Instruct-v0.2".
 
     Args:
         - pretrained_model_name_or_path (str): le nom ou le chemin du modèle pre-entrainé de HuggingFace
