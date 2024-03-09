@@ -22,7 +22,6 @@ class PromptTemplate:
     system_message: str = ""
     sep: str = "\n"
     eos: str = ""
-    name: str
 
     @property
     def input_variables(self) -> List[str]:
