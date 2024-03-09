@@ -33,7 +33,7 @@ class NewsDataset:
         self,
         data_path: Path,
         scope: Scope = Scope.TRAINING,
-        template: str = "falcon",
+        template: str = "mistral",
         max_samples: Optional[int] = None,
     ):
         """
@@ -41,7 +41,7 @@ class NewsDataset:
         Args:
             - data_path(Path) : le chemin du fichier des données.
             - scope(Scope, optionnel):  la portée des données. La valeur par défaut est Scope.TRAINING.
-            - template(str, optionnel): le template à utiliser pour les données. La valeur par défaut est falcon.
+            - template(str, optionnel): le template à utiliser pour les données. La valeur par défaut est mistral.
             - max_samples(Optional[int], optionnel): le nombre maximal d'observations à utiliser. La valeur par défaut est None.
         """
         self._data_path = data_path
