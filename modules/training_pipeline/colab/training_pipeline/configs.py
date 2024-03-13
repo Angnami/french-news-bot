@@ -4,8 +4,7 @@ from dataclasses import dataclass
 
 from transformers import TrainingArguments
 
-from training_pipeline.data.utils import load_yaml
-
+from .data.utils import load_yaml
 
 @dataclass
 class TrainingConfig:

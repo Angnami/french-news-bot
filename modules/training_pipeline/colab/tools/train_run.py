@@ -1,16 +1,14 @@
 from pathlib import Path
-import fire
 
 import sys
 sys.path.append("..")
-
 from training_pipeline import configs
 
 
 def train(
-    config_file: str,
-    output_dir: str,
-    dataset_dir: str,
+    config_file: str='configs/training_config.yaml',
+    output_dir: str='/outputs',
+    dataset_dir: str='/dataset/',
     env_file_path: str = ".env",
     logging_config_path: str = "logging.yaml",
     model_cache_dir: str = None,
@@ -27,20 +25,20 @@ def train(
 
     """
     from training_pipeline import initialize
-    import logging
+    #import logging
 
     # S'assurer d'initialiser les variables environnementales avant d'importer tout autre module
     initialize(logging_config_path=logging_config_path, env_file_path=env_file_path)
 
-    from training_pipeline import utils
+    #from training_pipeline import utils
     from training_pipeline.api.training import TrainingAPI
 
-    logger = logging.getLogger(__name__)
+    # logger = logging.getLogger(__name__)
 
-    logger.info("#" * 100)
-    utils.log_available_gpu_memory()
-    utils.log_available_ram()
-    logger.info("#" * 100)
+    # logger.info("#" * 100)
+    # utils.log_available_gpu_memory()
+    # utils.log_available_ram()
+    # logger.info("#" * 100)
 
     config_file = Path(config_file)
     output_dir = Path(output_dir)
@@ -57,4 +55,4 @@ def train(
 
 
 if __name__ == "__main__":
-    fire.Fire(train)
+    train()

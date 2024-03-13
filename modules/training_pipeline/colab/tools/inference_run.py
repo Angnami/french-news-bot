@@ -1,17 +1,17 @@
 from pathlib import Path
-import fire
 
 import sys
 sys.path.append("..")
+
 from training_pipeline import configs
 
 
 def infer(
-    config_file: str,
-    dataset_dir: str,
+    config_file: str='configs/training_config.yaml',
+    dataset_dir: str='/dataset/',
     output_dir: str = "output-inference",
     env_file_path: str = ".env",
-    logging_config_path: str = "logging.yaml",
+    logging_config_path: str = "training_pipeline/logging.yaml",
     model_cache_dir: str = None,
 ):
     """
@@ -24,22 +24,22 @@ def infer(
         -logging_config_path(str,optionnel):le chemin du fichier de configuration. logging.yaml par défaut.
         -model_cache_dir(str,optionnel):le repertoire de cache du modéle. None par défaut.
     """
-    import logging
+    #import logging
 
     from training_pipeline import initialize
 
     # S'assurer d'initialiser les variables environnementales avant d'importer tout autre module
     initialize(logging_config_path=logging_config_path, env_file_path=env_file_path)
 
-    from training_pipeline import utils
+    #from training_pipeline import utils
     from training_pipeline.api.inference import InferenceAPI
 
-    logger = logging.getLogger(__name__)
+    # logger = logging.getLogger(__name__)
 
-    logger.info("#" * 100)
-    utils.log_available_gpu_memory()
-    utils.log_available_ram()
-    logger.info("#" * 100)
+    # logger.info("#" * 100)
+    # utils.log_available_gpu_memory()
+    # utils.log_available_ram()
+    # logger.info("#" * 100)
 
     config_file = Path(config_file)
     root_dataset_dir = Path(dataset_dir)
@@ -59,4 +59,4 @@ def infer(
 
 
 if __name__ == "__main__":
-    fire.Fire(infer)
+    infer()

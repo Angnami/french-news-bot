@@ -10,7 +10,9 @@ from transformers import (
     AutoTokenizer,
     BitsAndBytesConfig,
 )
-from training_pipeline import constants
+
+
+import constants
 
 logger = logging.getLogger(__name__)
 
@@ -48,7 +50,7 @@ def build_qlora_model(
     model = AutoModelForCausalLM.from_pretrained(
         pretrained_model_name_or_path,
         revision="main",
-        quanization_config=bnb_config,
+        quantization_config=bnb_config,
         load_in_4bit=True,
         device_map="auto",
         trust_remote_code=False,
