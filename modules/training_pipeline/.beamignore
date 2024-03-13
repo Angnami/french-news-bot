@@ -12,3 +12,4 @@ test.py
 .ipynb_checkpoints/*
 .git
 README.md
+colab/*
