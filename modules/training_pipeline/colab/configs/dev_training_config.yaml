@@ -20,4 +20,4 @@ training:
 model:
   id: mistralai/Mistral-7B-Instruct-v0.2
   template: mistral
-  max_seq_length: 1024
+  max_seq_length: 2048

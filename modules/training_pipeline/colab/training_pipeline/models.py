@@ -49,19 +49,16 @@ def build_qlora_model(
 
     model = AutoModelForCausalLM.from_pretrained(
         pretrained_model_name_or_path,
-        revision="main",
         quantization_config=bnb_config,
-        load_in_4bit=True,
         device_map="auto",
-        trust_remote_code=False,
         cache_dir=str(cache_dir) if cache_dir else None,
     )
 
     tokenizer = AutoTokenizer.from_pretrained(
         pretrained_model_name_or_path,
-        trust_remote_code=False,
         truncation=True,
         cache_dir=str(cache_dir) if cache_dir else None,
+        padding_side = 'right'
     )
 
     if tokenizer.pad_token_id is None:
@@ -100,7 +97,7 @@ def build_qlora_model(
             r=64,
             bias="none",
             task_type="CAUSAL_LM",
-            target_modules=["query_key_value"],
+            target_modules=["q_proj","k_proj","v_proj","o_proj"],
         )
         if gradient_checkpointing:
             model.gradient_checkpointing_enable()
